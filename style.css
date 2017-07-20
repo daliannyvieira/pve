@@ -1,7 +1,79 @@
-body {
-	padding: 0;
-	margin: 0;
+/**,*:before, *:after{
+	box-sizing:border-box;
+	position: relative;
+}*/
+
+ body{
+ 	height: 100vh;
+ 	background: #D3D3D3;
+
 }
+.header-section {
+	background: #fff;
+}
+.header-iniciativa {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0;
+	margin-right: 10.50%;
+	margin-top: 0;
+	color: #CDC9C9;
+
+
+}
+.header-logo {	
+	display: flex;
+	justify-content: flex-end;
+
+	
+}
+.header-logo img {
+	width: 15%;
+}
+.home {
+	 
+}
+.img-home{
+	width:40%;
+	margin-left:9%;
+}
+.home h1 {
+	margin-left: 60%;
+	top:0;
+	color:#0000FF;
+	display:flex;
+	justify-content:space-around;
+}
+.home h2 {
+	margin-left: 60%;
+	color: #00688B;
+	display:flex;
+	justify-content:space-around;
+}
+.home p{
+	margin-left: 60%;
+	color:#1E90FF;
+	display:flex;
+	justify-content:space-around;  
+}
+.divhome-pesquisa{
+	border-radius:5px;
+	background: blue;	
+	margin-left:60%;
+	display:flex;
+	flex-direction:row;	
+	justify-content:space-around;
+
+}
+/*.home-pesquisa{
+	border-radius:5px;
+	background: blue;	
+	margin-left:40%;
+	display:flex;
+	flex-direction:row;	
+	justify-content:space-around;
+
+}*/
 
 .content-pesquisa{
 	background-color: yellow;
@@ -17,4 +89,10 @@ body {
 
 .content-vaiNaWeb{
 	background-color: yellow;
+}
+/*.barra{
+	background-color:#fff;
+}	*/
+.letra{
+	background-color:#fff;
 }

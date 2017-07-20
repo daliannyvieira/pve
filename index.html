@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title></title>
+	<title>Votorantim</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
-</head>
+	<link rel="stylesheet" href="style.css">
+	</head>
 <body>
 	<header class="header">
+		<section class="header-section">
+		<p class="header-iniciativa">Iniciativa</p>
 		<div class="header-logo">
-			<p>Iniciativa</p>
-			<img src="Assets/logo-institutovotorantim.png" width="100" height="100">			
-			<img src="Assets/logo-bancovotorantim.png" width="100" height="100">
+			<!-- <p>Iniciativa</p> -->
+			<img src="Assets/logo-institutovotorantim.png">	
+			<img src="Assets/logo-bancovotorantim.png">
 		</div>
-		<div class="header-home">										
-			<img src="Assets/ilustra.svg" width="100" height="100">
+		<div class="home">
+			<img class="img-home" src="Assets/ilustra.svg">
 			<h1 class="home-titulo">Prêmio Parceria Votorantim pela Educação</h1>
 			<h2 class="home-titulo">Conhecendo e praticando ações de impacto positivo</h2>
 			<p class="home-descricao">Através da educação, somos capazes de perceber a diferença que cada
@@ -28,10 +30,11 @@
 			<p>É hora de tomar frente na melhoria da educação de seu município - Estar
 			presente faz diferença</p>
 		</div>
-		<div>
+		<div class="divhome-pesquisa">
 			<p class="home-pesquisa">Ver resultados parciais</p>
 			<p class="home-pesquisa">Ver categorias e prêmios</p>
 		</div>
+		</section>
 	</header>
 		<main class="content">
 			<section class="content-pesquisa">
@@ -39,10 +42,16 @@
 					<img src="Assets/ilustra1.png" width="100" height="100">
 					<h2>Acompanhe seus resultados</h2>
 					<p>Insira o código da sua cidade para ter acesso aos resultados da primeira metade de 2017</p>
+				</div>
+				<div>
+					<form action="/action_page.php">
+						 <input type="text" name="Inserir codigo"><br>
+						<input type="submit" value="Submit">
+					</form>
+					<p class="letra">inserir codigo</p> 
 					<p>Ver resultados da minha cidade</p>	
 					<p>Não recebeu o seu código?</p>
 				</div>
-				<div>
 					<div>
 						<div>
 							<p>Janeiro</p>
@@ -53,9 +62,9 @@
 						<div>
 							<p>2017 <img src="Assets/check.svg" width="100" height="100"></p>
 							<p><img src="Assets/check.svg" width="100" height="100"></p>
-							<p class="circulo"></p>
-							<p>201°</p>
-							<p class="circulo"></p>
+							<!-- por que o?<p class="circulo"></p> -->
+							<!-- porque colocou ? <p>201°</p> -->
+							<!-- porque o ?<p class="circulo"></p> -->
 						</div>
 						<div>
 							<p>Início das ações nas escolas</p>
@@ -91,7 +100,7 @@
 							<p>Todos os municípios participantes do PVE também estão concorrendo nesta categoria. A seleção do município vencedor passará por 3 etapas:</p>
 						</div>
 						<div class="descricao-etapas">
-							<img src="Assets/doted-line.svg">
+							<img src="Assets/line.svg">
 							<h2>1° ETAPA</h2>
 							<p>Seleção dos municípios que alcançarem as metas previstas para os indicadores monitorados nas três frentes de atuação.<p>
 							<h2>2° ETAPA</h2>
