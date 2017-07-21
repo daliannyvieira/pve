@@ -3,14 +3,14 @@
 	position:relative;
 }
 
- /*body{
+ body{
  	height: 100vh;
- 	background: #fff;
+ 	background:#fff;
 
-}*/
+}
 .header-section {
-	background: #fff;
-
+	background:#fff;
+	height:100vh;
 }
 .header-iniciativa {
 	display: flex;
@@ -84,49 +84,175 @@
 	padding:10px;
 	list-style-type:none
 }
+.content{
+	height:-19vh;
+}
 
 .content-pesquisa{
-	background-color: yellow;
-}
+	background-color:#EEC900;
+	height:100vh;
+}	
+
 .img-pesquisa{
+	position:absolute;
+	top:200px; 
+	left:50px;
 	float:left;
+	width:26%;
+
+
 }
 .content-pesquisa h2{
-	display:flex;
-	justify-content:center;
+	position:absolute;
+	top:100px;
+	left:500px;
+	/*display:flex;
+	justify-content:center;*/
 	color:#0000CD;
 }
-.content-pesquisa p{
-	display:flex;
-	justify-content:center;
+.pesquisap{
+	white-space:pre-line;
+	top:200px;
+	left:380px;
 	color:#0000CD;
+	/*text-indent:1em;*/	
+}
+.input{
+	position:absolute;
+	top:230px;
+	left:-180px;
+	background:#fff;
+	color:#CFCFCF;
+	border-radius:5px;
 }
 .pesquisa{
+	height:60px;
 	display:flex;
 	justify-content:center;
 }
 .resultado-pesquisa{
-	display:flex;
-	justify-content:center;
+	/*display:flex;
+	justify-content:center;*/
+}
+.resultado-pesquisa-p{
+	position:absolute;
+	top:230px;
+	left:455px;
+	text-align:center;
+	font-size:20px;
+	width:32.56%;
+	background-color:#0000CD;
+	color:#fff;
+	border-radius:5px;
+	margin:0;
+	padding:20px;
+	text-decoration:none;
+}
+.codigo-invalido{
+	position:absolute;
+	top:330px;
+	left:555px;
+	color:#0000EE;
+	text-decoration:none; 
+
 }
 .linha-do-tempo{
 	display:flex;
-	justify-content:center;
+	justify-content:space-around;
+	top:400px;
+	/*background:#00f;*/
+	/*position:absolute;
+	top:500px;
+	left:500px;*/
 }
-.linha-do-tempo img{
+.p-2017{
+	display:flex;
+	justify-content:center;
+	/*flex-wrap:wrap;*/
+	/*align-items:center;*/
 
+}
+.inicio-escolas{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	top:100px;
+}
+.img-livro{
+	position:absolute;
+	top:0;
+	left:950px;
+	width:30%;
+	height:70%;
 }
 .content-premio{
-	background-color:#0000CD;
+	background-color:#1E90FF;
 	color:#000;
 }
-
-.content-institutoVotorantim{
-	background-color: pink;
+.content-premio h2 {
+	color: #fff;
+	display: flex;
+	justify-content: center;
 }
+.content-premio img {
+	float: right;
+	width: 13%;
+	height: 13%;
+}
+.sec-descricao {
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+	width: 40%;
+	left: 5%;
+	float: left;
+	color: #fff;
+}
+.sec-descricao2 {
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+	width: 40%;
+	left: 7%;
+	color: #fff;
 
+}
+.descricao-categoria {
+	background: #fff;
+	opacity: .6;
+	color: #000;
+	padding: 4%;
+}
+.content-institutoVotorantim{
+	background-color: tomato;
+}
+.institutoVotorantim-descricao {
+	color: blue;
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+	width: 40%;
+	left: 7%;
+}
+.institutoVotorantim-descricao img {
+	width: 30%;
+	height: 30%;
+}
+.video{
+	display:flex;
+	left:60%;
+	width:30%;
+	height:30%;
+}
 .content-vaiNaWeb{
 	background-color: yellow;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.content-vaiNaWeb img {
+	float:left;
 }
 /*.barra{
 	background-color:#fff;
