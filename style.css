@@ -1,86 +1,124 @@
-/**,*:before, *:after{
+*, *:before, *:after{
 	box-sizing:border-box;
-	position: relative;
-}*/
-
- body{
- 	height: 100vh;
- 	background: #D3D3D3;
-
+	position:relative;
 }
+
+ /*body{
+ 	height: 100vh;
+ 	background: #fff;
+
+}*/
 .header-section {
 	background: #fff;
+
 }
 .header-iniciativa {
 	display: flex;
-	flex-direction: row-reverse;
-	margin: 0;
-	margin-right: 10.50%;
-	margin-top: 0;
+	justify-content:flex-end;
+	margin: 1%;
+	margin-right: 23.10%;
+	padding-top:3%;
 	color: #CDC9C9;
-
-
 }
 .header-logo {	
 	display: flex;
 	justify-content: flex-end;
-
-	
+	margin-right:2%;	
 }
 .header-logo img {
-	width: 15%;
+	width: 14%;
+	height:10%;
 }
 .home {
-	 
+	padding:10%;
 }
 .img-home{
-	width:40%;
-	margin-left:9%;
+	width:65vh;
+	margin-left:2%;
 }
 .home h1 {
-	margin-left: 60%;
+	margin-left:50%;
 	top:0;
 	color:#0000FF;
 	display:flex;
 	justify-content:space-around;
 }
 .home h2 {
-	margin-left: 60%;
+	margin-left:50%;
 	color: #00688B;
 	display:flex;
 	justify-content:space-around;
 }
 .home p{
-	margin-left: 60%;
+	margin-left:50%;
 	color:#1E90FF;
 	display:flex;
 	justify-content:space-around;  
 }
-.divhome-pesquisa{
-	border-radius:5px;
-	background: blue;	
-	margin-left:60%;
+.navhome-pesquisa{
+	/*border-radius:5px;*/
+	/*background-color:blue;*/
+	font-size:19px;
 	display:flex;
-	flex-direction:row;	
-	justify-content:space-around;
-
+	flex-direction:row;
+	justify-content:flex-end;
 }
-/*.home-pesquisa{
-	border-radius:5px;
-	background: blue;	
-	margin-left:40%;
-	display:flex;
-	flex-direction:row;	
-	justify-content:space-around;
 
-}*/
+.ulhome-pesquisa{
+	text-align:center;
+	width:50%;
+	background:#00CDCD;
+	color:#fff;
+	border-radius:5px;
+	margin:10px;
+	padding:10px;
+    list-style-type:none
+}
+.ulhome-pesquisa2{
+	text-align:center;
+	width:50%;
+	background-color:#00CDCD;
+	color:#fff;
+	border-radius:5px;
+	margin:10px;
+	padding:10px;
+	list-style-type:none
+}
 
 .content-pesquisa{
 	background-color: yellow;
 }
+.img-pesquisa{
+	float:left;
+}
+.content-pesquisa h2{
+	display:flex;
+	justify-content:center;
+	color:#0000CD;
+}
+.content-pesquisa p{
+	display:flex;
+	justify-content:center;
+	color:#0000CD;
+}
+.pesquisa{
+	display:flex;
+	justify-content:center;
+}
+.resultado-pesquisa{
+	display:flex;
+	justify-content:center;
+}
+.linha-do-tempo{
+	display:flex;
+	justify-content:center;
+}
+.linha-do-tempo img{
 
+}
 .content-premio{
-	background-color: blue;
+	background-color:#0000CD;
+	color:#000;
 }
 
 .content-institutoVotorantim{
@@ -93,6 +131,7 @@
 /*.barra{
 	background-color:#fff;
 }	*/
-.letra{
+/*.letra{
 	background-color:#fff;
-}
+}*/
+	

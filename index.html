@@ -8,7 +8,7 @@
 	</head>
 <body>
 	<header class="header">
-		<section class="header-section">
+		<!-- <section class="header-section"> -->
 		<p class="header-iniciativa">Iniciativa</p>
 		<div class="header-logo">
 			<!-- <p>Iniciativa</p> -->
@@ -16,7 +16,7 @@
 			<img src="Assets/logo-bancovotorantim.png">
 		</div>
 		<div class="home">
-			<img class="img-home" src="Assets/ilustra.svg">
+		   <img class="img-home" src="Assets/ilustra.svg" style="float:left;">
 			<h1 class="home-titulo">Prêmio Parceria Votorantim pela Educação</h1>
 			<h2 class="home-titulo">Conhecendo e praticando ações de impacto positivo</h2>
 			<p class="home-descricao">Através da educação, somos capazes de perceber a diferença que cada
@@ -29,42 +29,47 @@
 			expandir resultados de valor para a sociedade.</p>
 			<p>É hora de tomar frente na melhoria da educação de seu município - Estar
 			presente faz diferença</p>
-		</div>
-		<div class="divhome-pesquisa">
-			<p class="home-pesquisa">Ver resultados parciais</p>
-			<p class="home-pesquisa">Ver categorias e prêmios</p>
-		</div>
-		</section>
+		<!-- </div> -->
+		<nav class="navhome-pesquisa">
+			<ul class="ulhome-pesquisa">Ver resultados parciais
+			<li></li>
+		</ul>
+			<ul class="ulhome-pesquisa2">Ver categorias e prêmios
+			<li></li>
+		</ul>
+		</nav>
+		<!-- </section> -->
 	</header>
 		<main class="content">
 			<section class="content-pesquisa">
 				<div>
-					<img src="Assets/ilustra1.png" width="100" height="100">
+					<img class="img-pesquisa" src="Assets/ilustra1.png">
 					<h2>Acompanhe seus resultados</h2>
 					<p>Insira o código da sua cidade para ter acesso aos resultados da primeira metade de 2017</p>
 				</div>
-				<div>
+				<div class="pesquisa">
 					<form action="/action_page.php">
 						 <input type="text" name="Inserir codigo"><br>
 						<input type="submit" value="Submit">
 					</form>
-					<p class="letra">inserir codigo</p> 
+				</div>
+				<div class="resultado-pesquisa">
+					<p>inserir codigo</p> 
 					<p>Ver resultados da minha cidade</p>	
 					<p>Não recebeu o seu código?</p>
 				</div>
-					<div>
-						<div>
-							<p>Janeiro</p>
-							<p>Agosto</p>
-							<p>Outubro</p>
-							<p>Fevereiro</p>
-						</div>
+					<div class="linha-do-tempo">
+						<p>Janeiro</p>
+						<p>Agosto</p>
+						<p>Outubro</p>
+						<p>Fevereiro</p>
+					</div>
 						<div>
 							<p>2017 <img src="Assets/check.svg" width="100" height="100"></p>
 							<p><img src="Assets/check.svg" width="100" height="100"></p>
-							<!-- por que o?<p class="circulo"></p> -->
-							<!-- porque colocou ? <p>201°</p> -->
-							<!-- porque o ?<p class="circulo"></p> -->
+								<p class="circulo"></p>
+						        <p>2018</p>
+								<p class="circulo"></p>
 						</div>
 						<div>
 							<p>Início das ações nas escolas</p>
@@ -100,7 +105,7 @@
 							<p>Todos os municípios participantes do PVE também estão concorrendo nesta categoria. A seleção do município vencedor passará por 3 etapas:</p>
 						</div>
 						<div class="descricao-etapas">
-							<img src="Assets/line.svg">
+							<img src="Assets/doted-line.svg">
 							<h2>1° ETAPA</h2>
 							<p>Seleção dos municípios que alcançarem as metas previstas para os indicadores monitorados nas três frentes de atuação.<p>
 							<h2>2° ETAPA</h2>
@@ -133,8 +138,8 @@
 				</div>
 			</section>
 		</main>
-	<footer>
-		<ul>
+	<footer class="footer">
+		<ul class="footerul">
 			<li><img src="Assets/logo-citrosuco.png" width="100" height="100"></li>
 			<li><img src="Assets/logo-votorantimcimentos.png" width="100" height="100"></li>
 			<li><img src="Assets/logo-vototrantimenergia.png" width="100" height="100"></li>
