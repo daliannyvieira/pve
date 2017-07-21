@@ -1,0 +1,80 @@
+body{
+	margin: 1%;
+	padding: 0;
+	background-color: #f4d309;
+
+}
+
+.table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-collapse: collapse;
+	background-color: #ededed;
+	background-color: #fff;
+	border: 1px;
+}
+
+.table-title{
+	background-color: #008acb;
+	color: #fff;
+	padding: 20px;
+	align-items: center;
+	height: 50px;
+}
+
+.header-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #fff;
+	width: 100%;
+}
+
+button{
+	background-color: #008acb;
+	color: #fff;
+	font-size: 100%;
+	width: 17%;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 7px;
+}
+
+.header-Cidade{
+	color: #005e96;
+	font-size: 30px;
+	font-weight: bold;
+	align-items: flex-start;
+	display: flex;
+	margin-left: 100px;
+}
+
+main{
+	background-color: #fff;
+}
+
+
+table{
+	 width: 95%;
+}
+
+.table-cabeçario{
+	background-color: #ededed;
+	height: 50px;
+	color: #005e96;
+}
+
+.table-cabeçario2{
+	background-color: #e2e2e2;
+	height: 50px;
+	color: #005e96;
+}
+
+.footer {
+	 width: 100%;
+	 border: 1px; 
+	 border-color: #fff;
+	 color: #005e96;
+}
