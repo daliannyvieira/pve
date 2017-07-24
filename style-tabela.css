@@ -73,8 +73,41 @@ table{
 }
 
 .footer {
-	 width: 100%;
-	 border: 1px; 
-	 border-color: #fff;
-	 color: #005e96;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;	
+	flex-direction: row;
+	height: 50%;
+	color: #005e96;
+	border: 0.50px;
+	width: 95%;
+	padding: 2.5%;
+	border:  1px;
 }
+
+.footer-participantes{
+	width: 27%;
+	height: 50px;
+	background-color: #ededed;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.footer-participantes td{
+	border: 2px solid #fff;
+	border-spacing: 5px;
+	border-collapse: collapse;
+	width: 5%;
+}
+
+
+
+/*.footer-participantes{
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	background-color: #ededed;
+	border: solid black 2px;
+}*/
