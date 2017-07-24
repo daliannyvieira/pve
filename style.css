@@ -89,11 +89,18 @@
 }
 
 .content-pesquisa{
+	min-height:100vh;
+	background: url(Assets/ilustra1.png) no-repeat left center, url(Assets/ilustra2.png) no-repeat right top;
+	background-size: 20%, 25%;
 	background-color:#EEC900;
-	height:100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
 }	
 
-.img-pesquisa{
+/*.img-pesquisa{
 	position:absolute;
 	top:200px; 
 	left:50px;
@@ -101,92 +108,136 @@
 	width:26%;
 
 
-}
+}*/
 .content-pesquisa h2{
-	position:absolute;
+	/*position:absolute;
 	top:100px;
-	left:500px;
+	left:500px;*/
 	/*display:flex;
 	justify-content:center;*/
 	color:#0000CD;
 }
 .pesquisap{
-	white-space:pre-line;
+	/*white-space:pre-line;
 	top:200px;
-	left:380px;
+	left:380px;*/
 	color:#0000CD;
 	/*text-indent:1em;*/	
 }
-.input{
-	position:absolute;
-	top:230px;
-	left:-180px;
-	background:#fff;
-	color:#CFCFCF;
-	border-radius:5px;
-}
 .pesquisa{
 	height:60px;
+	width:32%;
 	display:flex;
 	justify-content:center;
 }
+.input{
+	/*position:absolute;
+	top:230px;
+	left:-180px;*/
+	background:#fff;
+	color:#CFCFCF;
+	width: 100%;
+	border-radius:5px;
+}
+
 .resultado-pesquisa{
-	/*display:flex;
-	justify-content:center;*/
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	/*position:absolute;
+	top:230px;
+	left:455px;*/
+	width:32%;
+	background-color:#0000CD;
+	border-radius:5px;
+	margin-top: 7px;
 }
 .resultado-pesquisa-p{
-	position:absolute;
-	top:230px;
-	left:455px;
-	text-align:center;
 	font-size:20px;
-	width:32.56%;
-	background-color:#0000CD;
 	color:#fff;
-	border-radius:5px;
 	margin:0;
 	padding:20px;
 	text-decoration:none;
 }
 .codigo-invalido{
-	position:absolute;
+	/*position:absolute;
 	top:330px;
-	left:555px;
+	left:555px;*/
 	color:#0000EE;
 	text-decoration:none; 
+	margin-top: 17px;
+
+}
+.conteiner-linha-do-tempo{
+	display: flex;
+	align-items: flex-end;
+	/*background-color: red;*/
+	height: 15vh;
+	margin-top:100px;
 
 }
 .linha-do-tempo{
 	display:flex;
-	justify-content:space-around;
-	top:400px;
-	/*background:#00f;*/
-	/*position:absolute;
-	top:500px;
-	left:500px;*/
+	justify-content: space-between;
+    border-top: 1.5px dashed #FF8400;
+    padding-left: 0;
+    margin: 0;
+	
+	
 }
-.p-2017{
+.item-linha-do-tempo{
+	/*height: 200%;*/
+	width: 16%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	top:-28px;
+}
+.circulo-timeline-v{
+	border-radius: 50%;
+	background-color: #FF8400;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circulo-timeline-v img{
+	width: 90%;
+}
+.circulo-timeline {
+	width: 20px;
+	height: 20px;
+	background: #EEC900;
+	border: 1.5px solid #FF8400;
+	border-radius: 50%;
+}
+/*.ano017{
 	display:flex;
+	flex-direction:row;
 	justify-content:center;
-	/*flex-wrap:wrap;*/
-	/*align-items:center;*/
+	flex-wrap:wrap;
+	align-items:center;
 
-}
-.inicio-escolas{
+}*/
+/*.inicio-escolas{
 	display:flex;
 	justify-content:space-around;
 	flex-wrap:wrap;
-	top:100px;
+	top:100px;*/
 }
-.img-livro{
+/*.img-livro{
 	position:absolute;
 	top:0;
 	left:950px;
 	width:30%;
 	height:70%;
-}
+}*/
 .content-premio{
-	background-color:#1E90FF;
+	/*background:url(Assets/ilustra4.png);*/
+	background-color:blue;
 	color:#000;
 }
 .content-premio h2 {
@@ -198,10 +249,12 @@
 	float: right;
 	width: 13%;
 	height: 13%;
+	/*display: flex;*/
+	/*flex-direction: column;*/
 }
 .sec-descricao {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column;	
 	height: 20%;
 	width: 40%;
 	left: 5%;
@@ -222,6 +275,7 @@
 	opacity: .6;
 	color: #000;
 	padding: 4%;
+
 }
 .content-institutoVotorantim{
 	background-color: tomato;
