@@ -18,16 +18,15 @@ body{
 
 .header-Cidade{
 	color: #005e96;
-	font-size: 30px;
+	font-size: 1.2em;
 	font-weight: bold;
-	align-items: flex-start;
+	align-items: center;
 	display: flex;
-	margin-right: 41%;
+	margin-right: 48%;
 }
 
 .header-Cidade img {
-	width: 6%;
-	margin: 4%;
+	width: 1.2em;
 }
 
 
