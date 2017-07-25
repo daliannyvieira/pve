@@ -200,6 +200,12 @@ body {
 	border: 1.5px solid #FF8400;
 	border-radius: 50%;
 }
+.mes-timeline{
+	font-family: 'FrutigerNextLT' , light;
+	font-size: 1em;
+	color: #005e96;
+	text-align: left;
+}
 .descricao-timeline {
 	font-family: 'FrutigerNextLT' , light;
 	font-size: 1em;
@@ -281,6 +287,10 @@ body {
 	font-size: 1em;
 	color: #ffffff;
 	text-align: left;
+	margin:2px;
+	font-weight:bold;
+	display: flex;
+	flex-wrap: wrap;
 }
 .div-premios{
 	fill: solid;
@@ -389,10 +399,37 @@ body {
 
 .roda-pe{
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+
 }
 .div-iniciativa{
-	
 }
+.iniciativa{
+	padding:10px;
+}
+.div-iniciativa img{
+	width:100px;
+
+}
+.div-realizacao{
+
+}
+.realizacao{
+ display:flex;
+
+}
+.div-realizacao img{
+	width:100px;
+
+}
+.div-parceiros{
+
+}
+.parceiros{
+
+}
+.div-parceiros img{
+	width: 100px;
+} 	
