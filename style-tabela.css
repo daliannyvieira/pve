@@ -10,35 +10,64 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;
-	padding:2.10%;
-	
-
+	padding: 1.5%;
 }
+
+.header-Cidade{
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;	
+	font-family: 'FrutigerNextLT';
+	font-weight: bolder;
+	font-size: 1.25em;
+	color: #005e96;
+	text-align: left;	
+}
+
+.header-Cidade img {
+	width: 20px;
+	margin: 12px;
+}
+
 .header-btn{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	background-color: #fff;
-	
+	/*height: 52px;*/
 }
 
-.header-Cidade{
-	color: #005e96;
-	font-size: 1.2em;
-	font-weight: bold;
-	display: flex;
-	justify-content:flex-start;
-	align-items: center;
+																@media (max-width: 620px){	
+																		.header {
+																			flex-wrap: wrap;
+																			justify-content: flex-start;
+																		}
+																		.header-Cidade{
+																			justify-content: center;
+																			align-items: center;
+																		}
+																	}
 
-	
+																@media (max-width: 620px){	
+																		.header-btn {
+																			justify-content: center;
+																			align-items: flex-start;
+																			flex-direction: column;
+																			width: 100%;
+																			font-size: 2em;
+																		}
+																	}
 
-	
-}
+																	@media (max-width: 620px){	
+																		.header button {
+																			width: 100%;
 
-.header-Cidade img {
-	width: 1.2em;
-}
+																		}
 
+																		button img{
+																			width: 8%;
+																			
+																		}
+																	}
 
 .header button{
 	display: flex;
@@ -47,16 +76,19 @@ body{
 	flex-direction: row;
 	background-color: #008acb;
 	color: #fff;
+	font-family: 'FrutigerNextLT';
+	font-weight: bold;
 	font-size: 1em;
-	margin: 2%;
+	margin: 16px;
 	border-radius: 7px;
+	height: 52px;	
 	width: 42%;
+	text-align: left;
 }
 
 .header-btn button img {
 	width: 10%;
 	margin: 5%;
-	/*margin: 4%;*/
 }
 
 
@@ -67,6 +99,7 @@ main{
 
 table{
 	 width: 95%;
+	 
 }
 
 .table{
@@ -74,51 +107,57 @@ table{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	border-collapse: collapse;
-	background-color: #ededed;
-	background-color: #fff;
-	border: 1px;
 }
 
 .table-title{
 	background-color: #008acb;
 	color: #fff;
-	padding: 20px;
 	height: 50px;
+	font-family: 'FrutigerNextLT';
+	font-weight: bold;
+	font-size: 1em;
 }
 
 .table-title-Um{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
-  	width: 18%;
+  	width: 18.67%;
 }
+
+								@media (max-width: 620px){	
+											.table-title-Um {
+												display: none;
+											}
+										}
 
 .table-title-Dois{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
-  	width: 37%;
+  	width: 33%;
 }
+
+																@media (max-width: 620px){	
+																		.table-title-Dois {
+																			width: 100%;
+																		}
+																	}
 
 .table-title-Tres{
-	width: 13%;
+	width: 11%;
 }
 
-.table-cabeçario-descriçao{
-	margin: 0 auto;
-  	padding: 20px;
-}
+								@media (max-width: 620px){	
+											.table-title-Tres {
+												display: none;
+											}
+										}
 
 .table-cabeçario{
 	background-color: #ededed;
 	height: 50px;
 	color: #005e96;
-}
-
-.table-cabeçario-resultado{
-	text-align: center;
-	font-weight: bolder;
 }
 
 .table-cabeçario2{
@@ -127,47 +166,87 @@ table{
 	color: #005e96;
 }
 
+.table-cabeçario-descriçao{
+	margin: 0 auto;;
+  	padding: 20px;
+  	font-family: 'FrutigerNextLT';
+	font-size: 1em;
+	text-align: left;
+}
+
+									@media (max-width: 620px){	
+											.table-cabeçario-descriçao {
+												display: none;
+											}
+										}
+
+.table-cabeçario-Indicadores{
+	margin: 0 auto;
+  	padding: 20px;
+  	font-family: 'FrutigerNextLT';
+	font-size: 1em;
+	text-align: left;
+}
+														@media (max-width: 620px){	
+																.table-cabeçario-Indicadores
+																.table-cabeçario-IndicadoresPrincipais{
+
+															}
+														}
+
+.table-cabeçario-IndicadoresPrincipais{
+	font-family: 'FrutigerNextLT';
+	font-size: 1em;
+	text-align: left;
+}
+
+.table-cabeçario-resultado{
+	text-align: center;
+	font-family: 'FrutigerNextLT';
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+ .table-cabeçario-média{
+ 	text-align: center;
+ 	font-family: 'FrutigerNextLT';
+	font-size: 1em;
+ }	
+ 											@media (max-width: 620px){
+ 												.table-cabeçario-média{
+ 													display: none;
+ 												}
+ 											}
+
 .footer {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;	
-	flex-direction: row;
-	height: 50%;
+	align-items: flex-end;
 	color: #005e96;
-	border: 0.50px;
-	width: 95%;
-	padding: 2.4%;
-	border:  1px;
+	margin: 27px;
 }
 
 .footer-participantes{
 	width: 30%;
-	height: 50px;
+	height: 52px;
 	background-color: #ededed;
 	border-collapse: collapse;
-	text-align: center;
+	font-family: 'FrutigerNextLT';
+	font-size: 1em;
 }
 
-.footer-participantes td{
+.footer-participantes-descrição{
+	width: 20%;
 	border: 2px solid #fff;
 	border-spacing: 5px;
 	border-collapse: collapse;
-	width: 5%;
 	text-align: center;
 }
-
- .table-cabeçario-média{
- 	text-align: center;
- }
-
-
-
-/*.footer-participantes{
-	display: flex;	
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 50px;
-	background-color: #ededed;
-	border: solid black 2px;
-}*/
+.footer-participantes-resultado{
+	width: 8%;
+	border: 2px solid #fff;
+	border-spacing: 10px;
+	text-align: center;
+	font-weight: bold;
+}
