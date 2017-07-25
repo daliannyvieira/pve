@@ -3,19 +3,15 @@
 	position:relative;
 }
 
-<<<<<<< HEAD
- body{
- 	height: 100vh;
- 	background:#fff;
+body {
+	width: 100%;
 }
+
 .header-section {
 	background:#fff;
 	height:100vh;
-=======
-body{
-	width: 100%;
->>>>>>> cd64290a3fb7502180e02c61ab76708a039b30fa
 }
+
 .header {
 	min-height:100vh;
 	display: flex;
