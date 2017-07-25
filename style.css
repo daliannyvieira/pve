@@ -1,3 +1,4 @@
+
 *, *:before, *:after{
 	box-sizing:border-box;
 	position:relative;
@@ -38,46 +39,57 @@ body {
 	justify-content: center;
 }
 .text-home{
-	width: 45%;
+	width: 48%;
+	height: 20%;
+	margin:6px;
+	padding: 40px;
 }
 .img-home{
-	width:45%;
+	width:36%;
+	padding:5px;
 }
 .home h1 {
-	top:0;
-	color:#0000FF;
+	font-family: 'FrutigerNextLT', light;
+	font-size:1.8em;
+	color:#007dc5;
 }
-.home h2 {
-	color: #00688B;
-}
+/*.home h2 {
+	font-family:'FrutigerNextLT', light;
+	font-size:1em;
+	color:#007dc5;
+}*/
 .home p{
-	color:#1E90FF;
+	font-family:'FrutigerNextLT', light;
+	font-size:1em;
+	color:#007dc5;
 }
-.navhome-pesquisa{
-	font-size:15px;
+.div-home-pesquisa{
 	display:flex;
 	flex-direction:row;
 	justify-content:flex-end;
+	/*color:#fff; */
 }
-.ulhome-pesquisa{
+.p-home-pesquisa{
+	font-family:'FrutigerNextLT';
+	font-size:1em;
 	text-align:center;
 	width:50%;
-	background:#00CDCD;
+	background:#008acb;
 	color:#fff;
 	border-radius:5px;
 	margin:10px;
 	padding:10px;
-    list-style-type:none;
+    /*list-style-type:none;*/
 }
-.ulhome-pesquisa2{
+.p-home-pesquisa2{
 	text-align:center;
 	width:50%;
-	background-color:#00CDCD;
+	background-color:#008acb;
 	color:#fff;
 	border-radius:5px;
 	margin:10px;
 	padding:10px;
-	list-style-type:none;
+	/*list-style-type:none;*/
 }
 
 
@@ -86,6 +98,8 @@ body {
 	background: url(Assets/ilustra1.png) no-repeat left center, url(Assets/ilustra2.png) no-repeat right top;
 	background-size: 20%, 25%;
 	background-color:#EEC900;
+	fill: solid;
+	opacity: 0.9;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -94,6 +108,9 @@ body {
 }	
 
 .content-pesquisa h2{
+	font-family: 'FrutigerNextLT',black;
+	font-size: 1.8em;
+	text-align: left;
 	color:#0000CD;
 }
 .pesquisap{
@@ -106,8 +123,11 @@ body {
 	justify-content:center;
 }
 .input{
+	font-family: 'FrutigerNextLT',light ;
+	font-size: 1em;
 	background:#fff;
-	color:#CFCFCF;
+	color:#afafaf;
+	text-align: left;
 	width: 100%;
 	border-radius:5px;
 }
@@ -122,14 +142,19 @@ body {
 	margin-top: 7px;
 }
 .resultado-pesquisa-p{
-	font-size:20px;
-	color:#fff;
+	font-family: 'FrutigerNextLT' , bold ;
+	font-size:1em;
+	color:#ffffff;
+	text-align: left;
 	margin:0;
 	padding:20px;
 	text-decoration:none;
 }
 .codigo-invalido{
-	color:#0000EE;
+	font-family: 'FrutigerNextLT',light;
+	font-size: 1em;
+	color:#005e96;
+	text-align: left;
 	text-decoration:none; 
 	margin-top: 17px;
 }
@@ -175,13 +200,20 @@ body {
 	border: 1.5px solid #FF8400;
 	border-radius: 50%;
 }
-
+.descricao-timeline {
+	font-family: 'FrutigerNextLT' , light;
+	font-size: 1em;
+	color: #005e96;
+	text-align: left;
+}
 .sec-premio{
+	fill: solid;
+	opacity: 0.9;
 	min-height: 100vh;
 	max-height: 200vh;
 	background:url(Assets/ilustra4.png) no-repeat top right;
 	background-size: 10%;
-	background-color: #00f;
+	background-color: #008acb;
 	color:#fff;
 
 	display: flex;
@@ -204,16 +236,38 @@ body {
 	width: 35%;
 	margin: 10px;
 }
-.categorias-premios h3, .categorias-premios p{
+.categorias-premios h3{
+	font-family:'FrutigerNextLT', black;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: left;
+	margin:0;
+	margin-left: 40px;
+	} 
+.categorias-premios p{
+	font-family:  'FrutigerNextLT', light;
+	font-size: 1em;
+	color: #ffffff;
+	text-align: left;
 	margin:0;
 	margin-left: 40px;
 }
+.etapas {
+	font-family: 'DK Dirrrty';
+	font-size: 1.75em;
+	color: #ffffff;
+	text-align: left;
+}
 .destaque-numero{
+	font-family: 'FrutigerNextLT',black;
+	font-size: 1.69em;
 	position: absolute;
 	top:0;
+	color: #ffffff;
+	text-align: left;
 	left: -40px;
-	width: 30px;
-	height: 30px;
+	width: 35px;
+	height: 35px;
 	border-radius: 50%;
 	border: dotted 2px #000;
 	display: flex;
@@ -222,15 +276,53 @@ body {
 	margin: 0;
 }
 
-
+.frente-de-atuacao {
+	font-family: 'FrutigerNextLT' , bold;
+	font-size: 1em;
+	color: #ffffff;
+	text-align: left;
+}
 .div-premios{
+	fill: solid;
+	stroke: #ffffff;
 	background-color: #fff;
 	color:#00f;
+	opacity: 0.68;
 	padding: 15px;
 	margin: 5px;
+
 }
-.div-premios h3, .div-premios p{
+.div-premios h3{
 	margin: 0;
+	font-family: 'FrutigerNextLT' , bold;
+	font-size: 1.06em;
+	color: #005e96;
+	text-align: left;
+	} 
+.div-premios p{
+	margin: 0;
+	font-family: 'FrutigerNextLT' , light;
+	font-size: 1.06em;
+	color: #005e96;
+	text-align: left;
+}
+.regulamento-do-premio{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:32%;
+	background-color:#FFFF00;
+	border-radius:5px;
+	margin-top: 7px;
+}
+.regulamento-do-premio-p{
+	font-family: 'FrutigerNextLT',bold;
+	font-size: 1em;
+	color: #005e96;
+	text-align: left;
+	margin:0;
+	padding:20px;
+	text-decoration:none;
 }
 .asset-top{
 	transform: rotate(180deg);
@@ -238,6 +330,7 @@ body {
 
 
 .sec-premiopve{
+	opacity:0.8;
 	min-height: 80vh;
 	padding-top: 5%;
 	background-color: tomato;
@@ -247,21 +340,19 @@ body {
 
 }
 .premiopve-descricao {
-	color: blue;
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*height: 75%;*/
-	width: 35%;
-	/*left: 7%;*/
-	/*background-color: red;*/
+	font-family: 'FrutigerNextLT';
+	font-size:1.2em;	
+	color:#005e96;
+	text-align:left;
+	width: 31%;
 }
 .premiopve-descricao img {
 	width: 50%;
 	height: 40%;
 }
 .video{
-	width:40%;
-	height: 50%;
+	width:50%;
+	/*height: 50%;*/
 	margin-left: 10px;
 	background-color: blue;
 	
@@ -270,7 +361,8 @@ body {
 	width:100%;
 	min-height:80vh;
 	max-height: 90vh;
-	background-color: yellow;
+	background-color:#fff;
+	opacity:0.8;
 	padding: 10%;
 	display: flex;
 	flex-flow: column wrap;
@@ -284,29 +376,23 @@ body {
 }
 .sec-vainaweb h2, .sec-vainaweb p{
 	width: 50%;
+	font-family: 'FrutigerNextLT';
+	font-size:1.2em;
+	color:#005e96;
+	text-align:left;
 }
 
 .sec-vainaweb p{
-	font-size: 14px;
+	font-family: 'FrutigerNextLT';
+	font-size:1em;
 }
 
-.parceiros{
-	/*height: 40vh;*/
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
-	padding: 5%;
-}
-.parceiros-ul{
-	padding: 0;
-	list-style: none;
+.roda-pe{
 	display: flex;
-	flex-flow: row wrap;
-	/*flex-wrap: wrap;*/
 	justify-content: center;
+	flex-wrap: wrap;
 	align-items: center;
-} 
-.parceiros-ul img{
-	/*height: 67px;*/
-	width: 170px;
+}
+.div-iniciativa{
+	
 }
