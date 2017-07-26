@@ -6,7 +6,7 @@
 	src: url('Assets/fonts/DKDirrrty.eot?#iefix') format('embedded-opentype'),
 		url('Assets/fonts/DKDirrrty.woff') format('woff'),
 		url('Assets/fonts/DKDirrrty.ttf') format('truetype');
-	font-weight: normal;
+	font-weight: 400;
 	font-style: normal;
 }
 
