@@ -78,7 +78,7 @@ body {
 	text-decoration: none;
 	width:48%;
 	min-height: 100%; 
-	background-color:rgba(0,138,203,0.9);
+	background-color:#008ACB;
 	border-radius:5px;
 	padding:10px;
 
@@ -93,7 +93,7 @@ body {
 	background: url(Assets/ilustra1.png) no-repeat 8% 28%, url(Assets/ilustra2.png) no-repeat 104% top;
 	background-size: 20%, 25%;
 	/*background-color:rgba(238, 201, 0, 0.9);*/
-	background-color:#EEC900;
+	background-color:#F4D309;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -146,8 +146,8 @@ body {
 	justify-content:center;
 	align-items: center;
 	width:38%;
-	background-color:#0000CD;
-	opacity: 0.8;
+	background-color:#008acb;
+	/*opacity: 0.8;*/
 	border-radius:5px;
 	margin-top: 7px;
 }
@@ -199,8 +199,7 @@ body {
 	top:-45px;
 }
 .ano-timeline{
-	background-color:#EEC900;
-	
+	background-color:#F4D309;
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
 	font-size: 1em;
@@ -241,7 +240,7 @@ body {
 .circulo-timeline {
 	width: 20px;
 	height: 20px;
-	background: #EEC900;
+	background: #F4D309;
 	border: 1.5px solid #EA8C1C;
 	border-radius: 50%;
 }
@@ -258,7 +257,7 @@ body {
 .fim {
 	position: absolute;
 	right: 0;
-	background: #EEC900;
+	background: #F4D309;
 	height: 100%;
 	width: 50%;
 }
@@ -268,7 +267,7 @@ body {
 	background:url(Assets/ilustra4.png) no-repeat top right;
 	background-size: 12%;
 	background-color: #008acb;
-	opacity: 0.9;
+	/*opacity: 0.9;*/
 	
 	display: flex;
 	flex-flow: row wrap;
@@ -287,10 +286,10 @@ body {
 
 .div-sec-premios{
 	position: relative;
-	width: 35%;
+	width: 36%;
 	margin: 10px;
 
-	/*backgrousnd-color: red;*/
+	/*background-color: red;*/
 }
 .div-sec-premios h3{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
@@ -323,7 +322,7 @@ body {
 	color: #fff;
 	text-align: left;
 	line-height: 1.4em;
-	margin: 0px 40px;
+	margin: 0px 5%;
 }
 .p-catpremios-bold{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
@@ -336,18 +335,18 @@ body {
 	color: #ffffff;
 	text-align: left;
 	margin: 0px 40px;
-	margin-bottom: 14px;
+	margin-bottom: 3%;
 }
 
 
 .div-premios{
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.68);
+	background-color: #fff;
 	color:#00f;
 	border-radius: 3px;
 	padding: 10px 40px;
 	margin: 0px;
-	margin-top: 10px;
+	margin-top: 3%;
 
 }
 .div-premios h3{
@@ -376,7 +375,7 @@ body {
 	justify-content:center;
 	align-items: center;
 	width:38%;
-	background-color:#FFFF00;
+	background-color:#F4D309;
 	border-radius:5px;
 	margin: 3% 0;
 }
@@ -399,7 +398,7 @@ body {
 	min-height: 100vh;
 	padding-top: 5%;
 	background-color: tomato;
-	opacity:0.9;
+	/*opacity:0.9;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -448,7 +447,7 @@ body {
 	min-height:80vh;
 	max-height: 90vh;
 	background-color:#fff;
-	opacity:0.8;
+	/*opacity:0.8;*/
 	padding: 10%;
 	display: flex;
 	flex-flow: column wrap;
