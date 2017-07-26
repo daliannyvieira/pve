@@ -4,6 +4,13 @@ body{
 	background-color: #f4d309;
 
 }
+												@media (max-width: 620px){	
+													body {
+														margin: 0;
+														padding: 0;
+														background-color: #fff;
+													}
+												}
 
 .header {
 	display: flex;
@@ -15,11 +22,10 @@ body{
 
 .header-Cidade{
 	display: flex;
-	justify-content:flex-start;
 	align-items: center;	
 	font-family: 'FrutigerNextLT';
 	font-weight: bolder;
-	font-size: 1.25em;
+	font-size: 1.75em;
 	color: #005e96;
 	text-align: left;	
 }
@@ -41,30 +47,29 @@ body{
 																			flex-wrap: wrap;
 																			justify-content: flex-start;
 																		}
-																		.header-Cidade{
+																		/*.header-Cidade{
 																			justify-content: center;
 																			align-items: center;
-																		}
+																		}*/
 																	}
 
 																@media (max-width: 620px){	
 																		.header-btn {
-																			justify-content: center;
-																			align-items: flex-start;
+																			/*justify-content: flex-end;
+																			align-items: center;*/
 																			flex-direction: column;
-																			width: 100%;
+																			/*width: 100%;*/
 																			font-size: 2em;
 																		}
 																	}
 
 																	@media (max-width: 620px){	
 																		.header button {
-																			width: 100%;
+																			/*height: 2em;*/
 
 																		}
 
 																		button img{
-																			width: 8%;
 																			
 																		}
 																	}
@@ -81,13 +86,13 @@ body{
 	font-size: 1em;
 	margin: 16px;
 	border-radius: 7px;
-	height: 52px;	
-	width: 42%;
+	height: 3em;	
+	width: 18em;
 	text-align: left;
 }
 
 .header-btn button img {
-	width: 10%;
+	width: 1.5em;
 	margin: 5%;
 }
 
