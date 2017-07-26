@@ -8,54 +8,52 @@
 	<link rel="stylesheet" href="fonts.css">
 	</head>
 <body>
-	<header class="header">
-		<!-- <section class="header-section"> -->
-		
+	<header class="header">		
 		<div class="header-logo">
 			<p class="header-iniciativa">Iniciativa</p>
 			<img src="Assets/logo-institutovotorantim.png">	
-			<!-- <img src="Assets/logo-bancovotorantim.png"> -->
 		</div>
 		<div class="home">
 			<img class="img-home" src="Assets/ilustra.svg">
-			<div class="text-home">
+			<div class="div-content-home">
 				<h1 class="home-titulo">Prêmio Parceria Votorantim pela Educação</h1>
 				<!-- <h2 class="home-titulo">Conhecendo e praticando ações de impacto positivo</h2> -->
 				<p class="home-descricao">Através da educação, somos capazes de perceber a diferença que cada município faz no comprometimento com um futuro melhor para todos. O Prêmio PVE é o reconhecimento pelas ações e boas práticas desenvolvidas no âmbito do programa alinhado às prioridades do MEC e que já mobiliza 53 municípios em 17 estados brasileiros com impacto comprovado pelo Ideb na educação. Pais, alunos, gestores da área e a sociedade no geral
 				estão reunidos pelo fortalecimento de parcerias com as mesmas intenções: expandir resultados de valor para a sociedade.</p>
-				<p>É hora de tomar frente na melhoria da educação de seu município - Estar
+				<p class="home-descricao">É hora de tomar frente na melhoria da educação de seu município - Estar
 				presente faz diferença</p>
 			
 				<div class="div-home-pesquisa">
-					<p class="p-home-pesquisa">
+					<button type="button" class="button-home-pesquisa">
 					Ver resultados parciais
-					</p>
-					<p class="p-home-pesquisa2">
+					</button>
+					<button type="button" class="button-home-pesquisa">
 					Ver categorias e prêmios
-					</p>
+					</button>
 				</div>
 			</div>
 		</div>
 
-		<!-- </section> -->
 	</header>
 	<main class="content">
 		<section class="content-pesquisa">
 			
-			<h2>Acompanhe seus resultados</h2>
-			<p class="pesquisap">Insira o código da sua cidade para ter acesso aos resultados da primeira metade de 2017</p>
+			<h2 class="titulo-pesquisa">Acompanhe seus resultados</h2>
+			<p class="p-pesquisa">Insira o código da sua cidade para ter acesso aos resultados parciais.</p>
 			
-			<form class="pesquisa" >
-				<input class="input" type="text" name="Insira aqui seu código" size="50"><!-- <br> -->
-			    <!-- <input type="" value="inserir código" style=" height:50px;"> -->
+			<form class="pesquisa">
+				<input class="input" type="text" name="Código Cidade" value="Insira aqui seu código">
 			</form>
-			<!-- </div> -->
 			<div class="resultado-pesquisa">
 				<a href="tabela.html" class="resultado-pesquisa-p">Ver resultados da minha cidade</a>
 			</div>
 			<a href="" class="codigo-invalido">Não recebeu o seu código?</a>
 			<div class="conteiner-linha-do-tempo">
+
 				<ul class="linha-do-tempo">
+					<li class="item-linha-do-tempo item-linha-do-tempo-ano">
+						<p class="ano-timeline">2017</p>
+					</li>
 					<li class="item-linha-do-tempo">
 						<span class="mes-timeline">Janeiro</span>
 						<span class="circulo-timeline-v">
@@ -64,8 +62,8 @@
 						<span class="descricao-timeline">Início das ações nas escolas</span>
 					</li>
 					<li class="item-linha-do-tempo">
-						<span class="mes-timeline">Agosto</span>
-						<span class="circulo-timeline-v">
+						<span class="mes-timeline mes-timeline-vigente">Agosto</span>
+						<span class="circulo-timeline-v circulo-timeline-v-vigente">
 							<img src="Assets/check.svg">
 						</span>
 						<span class="descricao-timeline">1° rodada de resultados parciais</span>
@@ -75,7 +73,11 @@
 						<span class="circulo-timeline"></span>
 						<span class="descricao-timeline">2° rodada de resultados parciais</span>
 					</li>
+					<li class="item-linha-do-tempo item-linha-do-tempo-ano">
+						<p class="ano-timeline">2018</p>
+					</li>
 					<li class="item-linha-do-tempo">
+						<div class="fim"></div>
 						<span class="mes-timeline">Fevereiro</span>
 						<span class="circulo-timeline"></span>
 						<span class="descricao-timeline">Divulgação dos premiados</span>
@@ -166,9 +168,9 @@
 					das comunidades</p>
 				<img src="Assets/ilustra3.png" width="100" height="100">
 			</div>
-			<video class="video" controls="" loop="">
-				<source src="#" type="video/mp4">
-			</video>
+			<!-- <video class="video"> -->
+				<iframe height="60%" width="50%" src=" https://www.youtube.com/embed/u7GMEMqOxlk" frameborder="0" allowfullscreen></iframe>
+			<!-- </video> -->
 		</section>
 		<section class="sec-vainaweb">
 			<!-- <div class="vainaweb-descricao"> -->

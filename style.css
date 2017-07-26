@@ -1,4 +1,3 @@
-
 *, *:before, *:after{
 	box-sizing:border-box;
 	position:relative;
@@ -8,10 +7,10 @@ body {
 	width: 100%;
 }
 
-.header-section {
+/*.header-section {
 	background:#fff;
 	height:100vh;
-}
+}*/
 
 .header {
 	min-height:100vh;
@@ -29,7 +28,11 @@ body {
 	width: 20%;
 }
 .header-iniciativa {
-	color: #CDC9C9;
+	font-family: 'FrutigerNextLT';
+	font-size: 0.8em;
+	color: #ADADAD;
+	text-align: left;
+	margin: 3px 0;
 }
 .header-logo img {
 	width: 70%;
@@ -38,59 +41,49 @@ body {
 	display: flex;
 	justify-content: center;
 }
-.text-home{
-	width: 48%;
-	height: 20%;
-	margin:6px;
-	padding: 40px;
-}
 .img-home{
 	width:36%;
 	padding:5px;
 }
-.home h1 {
-	font-family: 'FrutigerNextLT', light;
-	font-size:1.8em;
-	color:#007dc5;
+.div-content-home{
+	width: 47%;
+	margin:6px;
+	padding: 40px;
 }
-/*.home h2 {
-	font-family:'FrutigerNextLT', light;
+
+.home-titulo{
+	font-family: 'FrutigerNextLT';
+	/*font-weight: normal;*/
+	font-size:1.6em;
+	color:#007DC5;
+}
+.home-descricao{
+	font-family: 'FrutigerNextLT';
+	font-weight: lighter;
 	font-size:1em;
-	color:#007dc5;
-}*/
-.home p{
-	font-family:'FrutigerNextLT', light;
-	font-size:1em;
-	color:#007dc5;
-	line-height: 98%;
+	color:#007DC5;
+	line-height: 1.4em;
 }
 .div-home-pesquisa{
+	height: 48px;
+	margin-right:10px;
 	display:flex;
 	flex-direction:row;
-	justify-content:flex-end;
-	/*color:#fff; */
+	justify-content:space-between;
 }
-.p-home-pesquisa{
+.button-home-pesquisa{
 	font-family:'FrutigerNextLT';
+	/*font-weight: lighter;*/
 	font-size:1em;
-	text-align:center;
-	width:50%;
-	background:#008acb;
 	color:#fff;
-	border-radius:5px;
-	margin:10px;
-	padding:10px;
-    /*list-style-type:none;*/
-}
-.p-home-pesquisa2{
 	text-align:center;
-	width:50%;
-	background-color:#008acb;
-	color:#fff;
+	width:48%;
+	min-height: 100%; 
+	border:none;
+	background-color:rgba(0,138,203,0.9);
 	border-radius:5px;
-	margin:10px;
+	/*margin:10px 0;*/
 	padding:10px;
-	/*list-style-type:none;*/
 }
 
 
@@ -98,9 +91,8 @@ body {
 	min-height:100vh;
 	background: url(Assets/ilustra1.png) no-repeat left center, url(Assets/ilustra2.png) no-repeat right top;
 	background-size: 20%, 25%;
+	/*background-color:rgba(238, 201, 0, 0.9);*/
 	background-color:#EEC900;
-	fill: solid;
-	opacity: 0.9;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -108,42 +100,57 @@ body {
 
 }	
 
-.content-pesquisa h2{
-	font-family: 'FrutigerNextLT',black;
-	font-size: 1.8em;
+.titulo-pesquisa{
+	font-family: 'FrutigerNextLT';
+	font-weight: 900;
+	font-size: 2.3em;
 	text-align: left;
-	color:#0000CD;
+	color:#005E96;
+	width: 35%;
+	margin: 10px 0;
 }
-.pesquisap{
-	color:#0000CD;
+
+.p-pesquisa{
+	font-family: 'FrutigerNextLT';
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.4em;
+	text-align: left;
+	color:#005E96;
+	width: 35%;
+	margin: 5px 0;
+	margin-bottom: 30px;
 }
 .pesquisa{
 	height:60px;
-	width:32%;
+	width:38%;
 	display:flex;
 	justify-content:center;
 }
 .input{
-	font-family: 'FrutigerNextLT',light ;
+	font-family: 'FrutigerNextLT';
+	font-weight: 300;
 	font-size: 1em;
 	background:#fff;
 	color:#afafaf;
 	text-align: left;
 	width: 100%;
 	border-radius:5px;
+	padding-left: 5%;
 }
 
 .resultado-pesquisa{
 	display:flex;
 	justify-content:center;
 	align-items: center;
-	width:32%;
+	width:38%;
 	background-color:#0000CD;
 	border-radius:5px;
 	margin-top: 7px;
 }
 .resultado-pesquisa-p{
-	font-family: 'FrutigerNextLT' , bold ;
+	font-family: 'FrutigerNextLT';
+	font-weight: 700;
 	font-size:1em;
 	color:#ffffff;
 	text-align: left;
@@ -152,7 +159,8 @@ body {
 	text-decoration:none;
 }
 .codigo-invalido{
-	font-family: 'FrutigerNextLT',light;
+	font-family: 'FrutigerNextLT';
+	font-weight: 300;
 	font-size: 1em;
 	color:#005e96;
 	text-align: left;
@@ -172,15 +180,44 @@ body {
     border-top: 1.5px dashed #FF8400;
     padding-left: 0;
     margin: 0;
+    /*width: 80%;*/
+
+    /*background-color: #fff;*/
 }
 .item-linha-do-tempo{
-	width: 16%;
+	width: 15%;
 	list-style: none;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	flex-flow: row wrap;
 	align-items: center;
 	position: relative;
-	top:-28px;
+	top:-35px;
+
+	/*background-color: red;*/
+}
+.item-linha-do-tempo-ano{
+	width: auto;
+	top:-45px;
+}
+.ano-timeline{
+	/*background-color:rgba(238, 201, 0, 0.5);*/
+	background-color:#EEC900;
+	color: #FF8400;
+	/*background-color: red;*/
+
+}
+.mes-timeline{
+	font-family: 'FrutigerNextLT';
+	font-weight: 300;
+	font-size: 1em;
+	color: #005e96;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.mes-timeline-vigente{
+	font-weight: 700;
 }
 .circulo-timeline-v{
 	border-radius: 50%;
@@ -191,9 +228,14 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.circulo-timeline-v img{
-	width: 90%;
+.circulo-timeline-v-vigente{
+	width: 30px;
+	height: 30px;
 }
+.circulo-timeline-v img{
+	width:15px;
+}
+
 .circulo-timeline {
 	width: 20px;
 	height: 20px;
@@ -201,17 +243,27 @@ body {
 	border: 1.5px solid #FF8400;
 	border-radius: 50%;
 }
-.mes-timeline{
-	font-family: 'FrutigerNextLT' , light;
-	font-size: 1em;
-	color: #005e96;
-	text-align: left;
-}
+
 .descricao-timeline {
-	font-family: 'FrutigerNextLT' , light;
+	font-family: 'FrutigerNextLT';
+	font-weight: 300;
 	font-size: 1em;
 	color: #005e96;
-	text-align: left;
+	text-align: center;
+	margin-top: 10px;
+	/*align-self: flex-end;*/
+
+
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+.fim {
+	position: absolute;
+	right: 0;
+	background: #EEC900;
+	height: 100%;
+	width: 50%;
+	/*align-self: flex-end;*/
+	/*background-color: red;*/
 }
 .sec-premio{
 	fill: solid;
@@ -224,11 +276,8 @@ body {
 	color:#fff;
 
 	display: flex;
-	/*flex-wrap: wrap;*/
 	flex-flow: row wrap;
 	justify-content: center;
-	/*align-content: center;
-	align-items: center;*/
 }
 .titulo-sec-premio{
 	width: 90%;
@@ -374,13 +423,13 @@ body {
 	width: 50%;
 	height: 40%;
 }
-.video{
+./*video{
 	width:50%;
-	/*height: 50%;*/
+	height: 50%;
 	margin-left: 10px;
 	background-color: blue;
 	
-}
+}*/
 .sec-vainaweb{
 	width:100%;
 	min-height:80vh;
