@@ -89,7 +89,7 @@ body {
 
 .content-pesquisa{
 	min-height:100vh;
-	background: url(Assets/ilustra1.png) no-repeat left center, url(Assets/ilustra2.png) no-repeat right top;
+	background: url(Assets/ilustra1.png) no-repeat 8% 28%, url(Assets/ilustra2.png) no-repeat 104% top;
 	background-size: 20%, 25%;
 	/*background-color:rgba(238, 201, 0, 0.9);*/
 	background-color:#EEC900;
