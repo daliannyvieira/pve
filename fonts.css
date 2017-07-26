@@ -16,6 +16,24 @@
 	src: url('Assets/fonts/FrutigerNextLT-Regular.eot?#iefix') format('embedded-opentype'),
 		url('Assets/fonts/FrutigerNextLT-Regular.woff') format('woff'),
 		url('Assets/fonts/FrutigerNextLT-Regular.ttf') format('truetype');
-	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FrutigerNextLT';
+	src: url('Assets/fonts/FrutigerNextLT-Light.eot');
+	src: url('Assets/fonts/FrutigerNextLT-Light.eot?#iefix') format('embedded-opentype'),
+		url('Assets/fonts/FrutigerNextLT-Light.woff') format('woff'),
+		url('Assets/fonts/FrutigerNextLT-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FrutigerNextLT';
+	src: url('Assets/fonts/FrutigerNextLT-Black.eot');
+	src: url('Assets/fonts/FrutigerNextLT-Black.eot?#iefix') format('embedded-opentype'),
+		url('Assets/fonts/FrutigerNextLT-Black.woff') format('woff'),
+		url('Assets/fonts/FrutigerNextLT-Black.ttf') format('truetype');
+	font-weight: 900;
 	font-style: normal;
 }

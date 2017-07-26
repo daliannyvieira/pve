@@ -273,13 +273,18 @@ body {
 	background:url(Assets/ilustra4.png) no-repeat top right;
 	background-size: 10%;
 	background-color: #008acb;
-	color:#fff;
+	
 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
 .titulo-sec-premio{
+	font-family: 'FrutigerNextLT';
+	font-weight: 900;
+	font-size: 2em;
+	text-align: left;
+	color:#fff;
 	width: 90%;
 	text-align: center;
 	/*background-color: red;*/
@@ -293,38 +298,19 @@ body {
 	margin: 10px;
 }
 .categorias-premios h3{
-	font-family:'FrutigerNextLT', black;
+	font-family:'FrutigerNextLT';
+	font-weight: 600;
 	font-size: 1.5em;
-	color: #ffffff;
+	color: #fff;
 	text-align: left;
 	margin:0;
 	margin-left: 40px;
-
-	} 
-.categorias-premios p{
-	font-family:  'FrutigerNextLT', light;
-	font-size: 1em;
-	color: #ffffff;
-	text-align: left;
-	margin:5%;
-	margin-left: 40px;
-	line-height: 98%;
-	margin-bottom: 30px;
-
-}
-.etapas {
-	font-family: 'DK Dirrrty';
-	font-size: 1.75em;
-	color: #ffffff;
-	text-align: left;
 }
 .destaque-numero{
-	font-family: 'FrutigerNextLT',black;
+
 	font-size: 1.69em;
 	position: absolute;
 	top:0;
-	color: #ffffff;
-	text-align: left;
 	left: -40px;
 	width: 35px;
 	height: 35px;
@@ -334,7 +320,34 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
+} 
+.p-premios{
+	font-family:  'FrutigerNextLT';
+	font-weight: 300;
+	font-size: 1em;
+	color: #fff;
+	text-align: left;
+	line-height: 1em;
+	margin-left: 40px;
+	/*line-height: 98%;*/
+	/*margin-bottom: 30px;*/
 }
+.p-catpremios-bold{
+	/*font-family:  'FrutigerNextLT';*/
+	font-weight: 700;
+	/*font-size: 1em;
+	color: #fff;
+	text-align: left;
+	line-height: 1em;
+	margin-left: 40px;*/
+}
+.etapas {
+	font-family: 'DK Dirrrty';
+	font-size: 1.75em;
+	color: #ffffff;
+	text-align: left;
+}
+
 
 .frente-de-atuacao {
 	font-family: 'FrutigerNextLT' , bold;
