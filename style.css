@@ -7,11 +7,6 @@ body {
 	width: 100%;
 }
 
-/*.header-section {
-	background:#fff;
-	height:100vh;
-}*/
-
 .header {
 	min-height:100vh;
 	display: flex;
@@ -28,7 +23,8 @@ body {
 	width: 20%;
 }
 .header-iniciativa {
-	font-family: 'FrutigerNextLT';
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 0.8em;
 	color: #ADADAD;
 	text-align: left;
@@ -52,14 +48,14 @@ body {
 }
 
 .home-titulo{
-	font-family: 'FrutigerNextLT';
-	/*font-weight: normal;*/
+	font-family: 'FrutigerNextLT', sans-serif, arial;
+	/*font-weight: 900;*/
 	font-size:1.6em;
 	color:#007DC5;
 }
 .home-descricao{
-	font-family: 'FrutigerNextLT';
-	font-weight: lighter;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size:1em;
 	color:#007DC5;
 	line-height: 1.4em;
@@ -72,8 +68,8 @@ body {
 	justify-content:space-between;
 }
 .button-home-pesquisa{
-	font-family:'FrutigerNextLT';
-	/*font-weight: lighter;*/
+	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 	font-size:1em;
 	color:#fff;
 	text-align:center;
@@ -101,9 +97,9 @@ body {
 }	
 
 .titulo-pesquisa{
-	font-family: 'FrutigerNextLT';
-	font-weight: 900;
-	font-size: 2.3em;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 500;*/
+	font-size: 2em;
 	text-align: left;
 	color:#005E96;
 	width: 35%;
@@ -111,8 +107,8 @@ body {
 }
 
 .p-pesquisa{
-	font-family: 'FrutigerNextLT';
-	font-weight: 700;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 	font-size: 1em;
 	line-height: 1.4em;
 	text-align: left;
@@ -128,8 +124,8 @@ body {
 	justify-content:center;
 }
 .input{
-	font-family: 'FrutigerNextLT';
-	font-weight: 300;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1em;
 	background:#fff;
 	color:#afafaf;
@@ -149,8 +145,8 @@ body {
 	margin-top: 7px;
 }
 .resultado-pesquisa-p{
-	font-family: 'FrutigerNextLT';
-	font-weight: 700;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 	font-size:1em;
 	color:#ffffff;
 	text-align: left;
@@ -159,8 +155,8 @@ body {
 	text-decoration:none;
 }
 .codigo-invalido{
-	font-family: 'FrutigerNextLT';
-	font-weight: 300;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1em;
 	color:#005e96;
 	text-align: left;
@@ -177,12 +173,9 @@ body {
 .linha-do-tempo{
 	display:flex;
 	justify-content: space-between;
-    border-top: 1.5px dashed #FF8400;
+    border-top: 1.5px dashed #EA8C1C;
     padding-left: 0;
     margin: 0;
-    /*width: 80%;*/
-
-    /*background-color: #fff;*/
 }
 .item-linha-do-tempo{
 	width: 15%;
@@ -193,23 +186,24 @@ body {
 	align-items: center;
 	position: relative;
 	top:-35px;
-
-	/*background-color: red;*/
 }
 .item-linha-do-tempo-ano{
 	width: auto;
 	top:-45px;
 }
 .ano-timeline{
-	/*background-color:rgba(238, 201, 0, 0.5);*/
 	background-color:#EEC900;
-	color: #FF8400;
-	/*background-color: red;*/
+	
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
+	font-size: 1em;
+	/*color: #FF8400;*/
+	color: #EA8C1C;
 
 }
 .mes-timeline{
-	font-family: 'FrutigerNextLT';
-	font-weight: 300;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1em;
 	color: #005e96;
 	text-align: center;
@@ -217,11 +211,12 @@ body {
 	margin-bottom: 5px;
 }
 .mes-timeline-vigente{
-	font-weight: 700;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 }
 .circulo-timeline-v{
 	border-radius: 50%;
-	background-color: #FF8400;
+	background-color: #EA8C1C;
 	width: 20px;
 	height: 20px;
 	display: flex;
@@ -240,47 +235,41 @@ body {
 	width: 20px;
 	height: 20px;
 	background: #EEC900;
-	border: 1.5px solid #FF8400;
+	border: 1.5px solid #EA8C1C;
 	border-radius: 50%;
 }
 
 .descricao-timeline {
-	font-family: 'FrutigerNextLT';
-	font-weight: 300;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1em;
 	color: #005e96;
 	text-align: center;
 	margin-top: 10px;
-	/*align-self: flex-end;*/
-
-
-	/*background-color: rgba(0,0,0,0.5);*/
 }
+
 .fim {
 	position: absolute;
 	right: 0;
 	background: #EEC900;
 	height: 100%;
 	width: 50%;
-	/*align-self: flex-end;*/
-	/*background-color: red;*/
 }
 .sec-premio{
-	fill: solid;
-	opacity: 0.9;
+	/*fill: solid;*/
 	min-height: 100vh;
 	max-height: 200vh;
 	background:url(Assets/ilustra4.png) no-repeat top right;
 	background-size: 10%;
 	background-color: #008acb;
+	opacity: 0.9;
 	
-
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
 .titulo-sec-premio{
-	font-family: 'FrutigerNextLT';
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	font-weight: 900;
 	font-size: 2em;
 	text-align: left;
@@ -298,8 +287,8 @@ body {
 	margin: 10px;
 }
 .categorias-premios h3{
-	font-family:'FrutigerNextLT';
-	font-weight: 600;
+	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 900;*/
 	font-size: 1.5em;
 	color: #fff;
 	text-align: left;
@@ -322,8 +311,8 @@ body {
 	margin: 0;
 } 
 .p-premios{
-	font-family:  'FrutigerNextLT';
-	font-weight: 300;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1em;
 	color: #fff;
 	text-align: left;
@@ -333,13 +322,8 @@ body {
 	/*margin-bottom: 30px;*/
 }
 .p-catpremios-bold{
-	/*font-family:  'FrutigerNextLT';*/
-	font-weight: 700;
-	/*font-size: 1em;
-	color: #fff;
-	text-align: left;
-	line-height: 1em;
-	margin-left: 40px;*/
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 }
 .etapas {
 	font-family: 'DK Dirrrty';
@@ -349,8 +333,8 @@ body {
 }
 
 
-.frente-de-atuacao {
-	font-family: 'FrutigerNextLT' , bold;
+/*.frente-de-atuacao {
+	font-family: 'FrutigerNextLT' , sans-serif, arial;
 	font-size: 1em;
 	color: #ffffff;
 	text-align: left;
@@ -360,10 +344,9 @@ body {
 	font-weight:bold;
 	display: flex;
 	flex-wrap: wrap;
-}
+}*/
 .div-premios{
-	fill: solid;
-	stroke: #ffffff;
+	/*stroke: #ffffff;*/
 	background-color: #fff;
 	color:#00f;
 	opacity: 0.68;
@@ -374,7 +357,8 @@ body {
 }
 .div-premios h3{
 	margin: 0;
-	font-family: 'FrutigerNextLT' , bold;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 	font-size: 1.06em;
 	color: #005e96;
 	text-align: left;
@@ -385,7 +369,8 @@ body {
 .div-premios p{
 	
 	margin: 0;
-	font-family: 'FrutigerNextLT' , light;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
 	font-size: 1.06em;
 	color: #005e96;
 	text-align: left;
@@ -402,7 +387,8 @@ body {
 	margin-top: 7px;
 }
 .regulamento-do-premio-p{
-	font-family: 'FrutigerNextLT',bold;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
 	font-size: 1em;
 	color: #005e96;
 	text-align: left;
@@ -415,7 +401,7 @@ body {
 }
 
 
-.sec-premiopve{
+.sec-pve{
 	opacity:0.8;
 	min-height: 80vh;
 	padding-top: 5%;
@@ -425,24 +411,28 @@ body {
 	align-items: flex-start;
 
 }
-.premiopve-descricao {
-	font-family: 'FrutigerNextLT';
-	font-size:1.2em;	
-	color:#005e96;
-	text-align:left;
+.pve-descricao {
 	width: 31%;
 }
-.premiopve-descricao img {
+.titulo-pve{
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
+	font-size:1.5em;	
+	color:#005E96;
+	text-align:left;	
+}
+.p-pve{
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	font-weight: 300;
+	font-size:1em;	
+	color:#005E96;
+	text-align:left;
+}
+.pve-descricao img {
 	width: 50%;
 	height: 40%;
 }
-./*video{
-	width:50%;
-	height: 50%;
-	margin-left: 10px;
-	background-color: blue;
-	
-}*/
+
 .sec-vainaweb{
 	width:100%;
 	min-height:80vh;
@@ -460,29 +450,33 @@ body {
 	width: 45%;
 	margin-right: 3%;
 }
-.sec-vainaweb h2, .sec-vainaweb p{
+.titulo-vainaweb{
 	width: 50%;
-	font-family: 'FrutigerNextLT';
-	font-size:1.2em;
-	color:#005e96;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	/*font-weight: 700;*/
+	font-size:1.5em;
+	color:#005E96;
+	text-align:left;
+}
+.p-vainaweb{
+	width: 50%;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
+	font-size:1em;
+	color:#005E96;
 	text-align:left;
 }
 
-.sec-vainaweb p{
-	font-family: 'FrutigerNextLT';
-	font-size:1em;
-}
-
-.roda-pe{
+.rodape{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 }
 .div-iniciativa{
+
 }
-.iniciativa{
+.p-iniciativa{
 	padding:10px;
 }
 .div-iniciativa img{
@@ -492,7 +486,7 @@ body {
 .div-realizacao{
 
 }
-.realizacao{
+.p-realizacao{
  display:flex;
 
 }
@@ -503,7 +497,7 @@ body {
 .div-parceiros{
 
 }
-.parceiros{
+.p-parceiros{
 
 }
 .div-parceiros img{
