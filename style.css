@@ -62,6 +62,7 @@ body {
 	font-family:'FrutigerNextLT', light;
 	font-size:1em;
 	color:#007dc5;
+	line-height: 98%;
 }
 .div-home-pesquisa{
 	display:flex;
@@ -249,14 +250,18 @@ body {
 	text-align: left;
 	margin:0;
 	margin-left: 40px;
+
 	} 
 .categorias-premios p{
 	font-family:  'FrutigerNextLT', light;
 	font-size: 1em;
 	color: #ffffff;
 	text-align: left;
-	margin:0;
+	margin:5%;
 	margin-left: 40px;
+	line-height: 98%;
+	margin-bottom: 30px;
+
 }
 .etapas {
 	font-family: 'DK Dirrrty';
@@ -287,7 +292,9 @@ body {
 	font-size: 1em;
 	color: #ffffff;
 	text-align: left;
-	margin:2px;
+	margin:0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 	font-weight:bold;
 	display: flex;
 	flex-wrap: wrap;
@@ -299,7 +306,8 @@ body {
 	color:#00f;
 	opacity: 0.68;
 	padding: 15px;
-	margin: 5px;
+	margin: 8px;
+	margin-top: 4px;
 
 }
 .div-premios h3{
@@ -308,13 +316,19 @@ body {
 	font-size: 1.06em;
 	color: #005e96;
 	text-align: left;
+	line-height: 8px;
+	margin-top: 8px;
+	margin-bottom: 18px;
 	} 
 .div-premios p{
+	
 	margin: 0;
 	font-family: 'FrutigerNextLT' , light;
 	font-size: 1.06em;
 	color: #005e96;
 	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 18px;
 }
 .regulamento-do-premio{
 	display:flex;
