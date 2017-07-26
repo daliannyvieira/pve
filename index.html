@@ -24,19 +24,19 @@
 				presente faz diferença</p>
 			
 				<div class="div-home-pesquisa">
-					<button type="button" class="button-home-pesquisa">
-					Ver resultados parciais
-					</button>
-					<button type="button" class="button-home-pesquisa">
-					Ver categorias e prêmios
-					</button>
+					<a href="#sec-pesquisa" class="div-pesquisa">
+						<p>Ver resultados parciais</p>
+					</a>
+					<a href="#sec-premio" class="div-pesquisa">
+						<p>Ver categorias e prêmios</p>
+					</a>
 				</div>
 			</div>
 		</div>
 
 	</header>
 	<main class="content">
-		<section class="content-pesquisa">
+		<section id="sec-pesquisa">
 			
 			<h2 class="titulo-pesquisa">Acompanhe seus resultados</h2>
 			<p class="p-pesquisa">Insira o código da sua cidade para ter acesso aos resultados parciais.</p>
@@ -85,10 +85,10 @@
 				</ul>
 			</div>
 		</section>
-		<section class="sec-premio">
-			<h2 class="titulo-sec-premio">Conheça os prêmios</h2>
+		<section id="sec-premio">
+			<h2 class="titulo-premio">Conheça os prêmios</h2>
 			<!-- <img src="Assets/ilustra4.png"> -->
-			<div class="categorias-premios">
+			<div class="div-sec-premios">
 				<h3 class="destaque-numero">1</h3>
 				<h3> Categoria por Frente de atuação</h3>
 				<p class="p-premios p-catpremios-bold">Frente de atuação Gestão educacional</p>
@@ -101,7 +101,7 @@
 				<p class="p-premios">Os municípios estão automaticamente inscritos no Prêmio em todas as frentes de atuação. O PVE acompanha a participação dos municípios por meio de indicadores intermediários e de resultados. O alcance desses indicadores gera uma pontuação para cada uma das frentes. Será premiado um município em cada frente de atuação, de acordo com a pontuação nos</p>
 			
 				<div class="div-premios">
-					<h3> PRÊMIO </h3>
+					<h3>PRÊMIO</h3>
 					<p>CATEGORIAS POR FRENTE DE ATUAÇÃO - GESTÃO ESCOLAR, GESTÃO EDUCACIONAL E MOBILIZAÇÃO SOCIAL:</p>
 					<p>• Viagem formativa e cultural em território nacional para quatro representantes de cada frente premiada. Os participantes serão:</p>
 					<p>- Gestão educacional: Secretário Municipal de Educação e 3 técnicos da Secretaria Municipal de Educação, sorteados dentre os que participaram dos ciclos do PVE. </p>
@@ -110,16 +110,20 @@
 					participaram dos ciclos do PVE..</p>
 				</div>
 			</div>
-			<div class="categorias-premios">
+			<div class="div-sec-premios">
 				<h3 class="destaque-numero">2</h3>
 				<h3>Categoria Nacional</h3>
 				<p class="p-premios">Todos os municípios participantes do PVE também estão concorrendo nesta categoria. A seleção do município vencedor passará por 3 etapas:</p>
-			
+				<br>
 				<img class="asset-top" src="Assets/doted-line.svg">
 				<h4 class="etapas">1° ETAPA</h4>
 				<p class="p-premios">Seleção dos municípios que alcançarem as metas previstas para os indicadores monitorados nas três frentes de atuação.</p>
+				<br>
+				<br>
 				<h4 class="etapas">2° ETAPA</h4>
 				<p class="p-premios">Para esta etapa serão consideradas as metas acordadas para o avanço na Matriz de Competências*. Serão selecionados os municípios que alcançarem as metas acordadas.</p>
+				<br>
+				<br>
 				<h4 class="etapas">3° ETAPA</h4>
 				<p class="p-premios">Os municípios que alcançarem esta etapa do Prêmio serão convidados a responder um formulário e a realizar um vídeo que deverá mostrar a articulação entre as três frentes de atuação e os resultados alcançados em cada uma delas. O município premiado será de nido a partir de um parecer técnico dos avaliadores, considerando os critérios do regulamento do Prêmio para esta etapa.</p>
 				<img class="asset-bottom" src="Assets/doted-line.svg">
@@ -131,11 +135,11 @@
 				</div>
 			</div>
 			<div class="regulamento-do-premio">
-				<a href="t" class="regulamento-do-premio-p">Ver o regulamento do prêmio</a>
+				<a href="#" class="p-regulamento-do-premio">Ver o regulamento do prêmio</a>
 			</div>
 		</section>
 		<!-- </section> -->
-		<section class="sec-pve">
+		<section id="sec-pve">
 			<div class="div-pve-descricao">
 				<h2 class="titulo-pve">O que é o PVE?</h2>
 				<p class="p-pve">O programa Parceria Votorantim pela Educação (PVE) é
@@ -148,17 +152,17 @@
 				<img class="img-pve" src="Assets/ilustra3.png" width="100" height="100">
 			</div>
 			<!-- <video class="video"> -->
-				<iframe height="60%" width="50%" src=" https://www.youtube.com/embed/u7GMEMqOxlk" frameborder="0" allowfullscreen></iframe>
+				<iframe class="video" src=" https://www.youtube.com/embed/u7GMEMqOxIk" frameborder="0" allowfullscreen></iframe>
 			<!-- </video> -->
 		</section>
-		<section class="sec-vainaweb">
+		<section id="sec-vainaweb">
 				<img src="Assets/vainaweb.png">
 				<h2 class="titulo-vainaweb">Alunos do Vai Na Web, nossos parceiros</h2>
 				<p class="p-vainaweb">Nada mais coerente do que formar uma parceria e construir site junto a formandos de um programa social de educação digital. Kelvin, Evelyn Vitor e Gabriel, jovens formados nas turmas do Vai na Web no Complexo das favelas do Alemão e no Morro dos Prazeres</p>
 				<p class="p-vainaweb">O Vai Na Web é um programa de educação em tecnologias digitais avançadas que	busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação	dos nossos jovens nos desafios da nova era digital. O resultado da construção desse site é em si a essência do que se quer premiar.</p>
 		</section>
 	</main>
-	<footer class="rodape">
+	<footer id="rodape">
 		<div class="div-iniciativa">
 			<p class="p-iniciativa">Iniciativa</p>
 			<img src="Assets/logo-institutovotorantim.png">

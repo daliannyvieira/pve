@@ -67,23 +67,26 @@ body {
 	flex-direction:row;
 	justify-content:space-between;
 }
-.button-home-pesquisa{
+.div-pesquisa{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
 	font-size:1em;
 	color:#fff;
 	text-align:center;
+	text-decoration: none;
 	width:48%;
 	min-height: 100%; 
-	border:none;
 	background-color:rgba(0,138,203,0.9);
 	border-radius:5px;
-	/*margin:10px 0;*/
 	padding:10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
-.content-pesquisa{
+#sec-pesquisa{
 	min-height:100vh;
 	background: url(Assets/ilustra1.png) no-repeat 8% 28%, url(Assets/ilustra2.png) no-repeat 104% top;
 	background-size: 20%, 25%;
@@ -131,6 +134,7 @@ body {
 	color:#afafaf;
 	text-align: left;
 	width: 100%;
+	border:none;
 	border-radius:5px;
 	padding-left: 5%;
 }
@@ -255,12 +259,11 @@ body {
 	height: 100%;
 	width: 50%;
 }
-.sec-premio{
-	/*fill: solid;*/
+#sec-premio{
 	min-height: 100vh;
-	max-height: 200vh;
+	/*max-height: 220vh;*/
 	background:url(Assets/ilustra4.png) no-repeat top right;
-	background-size: 10%;
+	background-size: 12%;
 	background-color: #008acb;
 	opacity: 0.9;
 	
@@ -268,7 +271,7 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 }
-.titulo-sec-premio{
+.titulo-premio{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	font-weight: 900;
 	font-size: 2em;
@@ -279,30 +282,30 @@ body {
 	/*background-color: red;*/
 }
 
-
-.categorias-premios{
+.div-sec-premios{
 	position: relative;
-	/*background-color: red;*/
 	width: 35%;
 	margin: 10px;
+
+	/*backgrousnd-color: red;*/
 }
-.categorias-premios h3{
+.div-sec-premios h3{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 900;*/
 	font-size: 1.5em;
 	color: #fff;
 	text-align: left;
-	margin:0;
-	margin-left: 40px;
+	margin: 20px 40px;
+	/*margin-left: 40px;*/
 }
 .destaque-numero{
 
 	font-size: 1.69em;
 	position: absolute;
-	top:0;
-	left: -40px;
-	width: 35px;
-	height: 35px;
+	top:-8px;
+	left: -50px;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 	border: dotted 2px #000;
 	display: flex;
@@ -316,10 +319,8 @@ body {
 	font-size: 1em;
 	color: #fff;
 	text-align: left;
-	line-height: 1em;
-	margin-left: 40px;
-	/*line-height: 98%;*/
-	/*margin-bottom: 30px;*/
+	line-height: 1.4em;
+	margin: 0px 40px;
 }
 .p-catpremios-bold{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
@@ -327,53 +328,43 @@ body {
 }
 .etapas {
 	font-family: 'DK Dirrrty';
+	font-weight: 400;
 	font-size: 1.75em;
 	color: #ffffff;
 	text-align: left;
+	margin: 0px 40px;
+	margin-bottom: 14px;
 }
 
 
-/*.frente-de-atuacao {
-	font-family: 'FrutigerNextLT' , sans-serif, arial;
-	font-size: 1em;
-	color: #ffffff;
-	text-align: left;
-	margin:0px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	font-weight:bold;
-	display: flex;
-	flex-wrap: wrap;
-}*/
 .div-premios{
-	/*stroke: #ffffff;*/
-	background-color: #fff;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.68);
 	color:#00f;
-	opacity: 0.68;
-	padding: 15px;
-	margin: 8px;
-	margin-top: 4px;
+	border-radius: 3px;
+	padding: 10px 40px;
+	margin: 0px;
+	margin-top: 10px;
 
 }
 .div-premios h3{
-	margin: 0;
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
 	font-size: 1.06em;
 	color: #005e96;
 	text-align: left;
-	line-height: 8px;
-	margin-top: 8px;
-	margin-bottom: 18px;
-	} 
-.div-premios p{
-	
+	line-height: 1.6em;
 	margin: 0;
+	margin-bottom: 30px;
+} 
+.div-premios p{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
 	font-size: 1.06em;
+	line-height:1.4em;
 	color: #005e96;
 	text-align: left;
+	margin: 0;
 	margin-top: 10px;
 	margin-bottom: 18px;
 }
@@ -381,12 +372,12 @@ body {
 	display:flex;
 	justify-content:center;
 	align-items: center;
-	width:32%;
+	width:38%;
 	background-color:#FFFF00;
 	border-radius:5px;
-	margin-top: 7px;
+	margin: 3% 0;
 }
-.regulamento-do-premio-p{
+.p-regulamento-do-premio{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
 	font-size: 1em;
@@ -401,39 +392,55 @@ body {
 }
 
 
-.sec-pve{
-	opacity:0.8;
-	min-height: 80vh;
+#sec-pve{
+	min-height: 100vh;
 	padding-top: 5%;
 	background-color: tomato;
+	opacity:0.9;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 
 }
-.pve-descricao {
+.div-pve-descricao {
 	width: 31%;
+	margin-right: 5%;
+	/*background: blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 .titulo-pve{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
 	font-size:1.5em;	
 	color:#005E96;
-	text-align:left;	
+	text-align:left;
+	margin: 0;
+	margin-bottom: 10px;	
 }
 .p-pve{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	font-weight: 300;
-	font-size:1em;	
+	font-size:1em;
+	line-height: 1.4em;	
 	color:#005E96;
 	text-align:left;
 }
-.pve-descricao img {
+.img-pve {
+	width: 70%;
+	height: auto;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+.video{
 	width: 50%;
-	height: 40%;
+	height: 55vh;
+
 }
 
-.sec-vainaweb{
+#sec-vainaweb{
 	width:100%;
 	min-height:80vh;
 	max-height: 90vh;
@@ -446,7 +453,7 @@ body {
 	/*align-items: center;*/
 	align-content: flex-start;
 }
-.sec-vainaweb img {
+#sec-vainaweb img {
 	width: 45%;
 	margin-right: 3%;
 }
@@ -467,7 +474,7 @@ body {
 	text-align:left;
 }
 
-.rodape{
+#rodape{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
