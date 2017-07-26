@@ -19,3 +19,21 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'FrutigerNextLT-Light';
+	src: url('Assets/fonts/FrutigerNextLT-Light.eot');
+	src: url('Assets/fonts/FrutigerNextLT-Light.eot?#iefix') format('embedded-opentype'),
+		url('Assets/fonts/FrutigerNextLT-Light.woff') format('woff'),
+		url('Assets/fonts/FrutigerNextLT-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FrutigerNextLT-Bold';
+	src: url('Assets/fonts/FrutigerNextLT-Bold.eot');
+	src: url('Assets/fonts/FrutigerNextLT-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Assets/fonts/FrutigerNextLT-Bold.woff') format('woff'),
+		url('Assets/fonts/FrutigerNextLT-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
