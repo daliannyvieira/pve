@@ -2,18 +2,19 @@
 	box-sizing:border-box;
 	position:relative;
 }
-
+html, body{
+	overflow: auto;
+}
 body {
 	width: 100%;
-	margin: 0;
-	/*overflow: hidden;*/
+	margin: 0;	
 }
 
-/*@media (max-width: 640px){
+@media (max-width: 640px){
 	body{
 		overflow: hidden;
 	}
-}*/
+}
 #header {
 	min-height:100vh;
 	display: flex;
@@ -22,9 +23,8 @@ body {
 	align-items: center;
 }
 @media (max-width: 640px){
-	.header{
-	flex-direction:row;
-	
+	#header{
+		padding-bottom: 20%; 
 	}
 }
 .nav-menu{
@@ -32,6 +32,11 @@ body {
 	position: relative;
 	top: 0;
 	width: 100%;
+}
+@media (max-width: 640px){
+	.nav-menu{
+		display: none;
+	}	
 }
 .menu{
 	display: flex;	
@@ -71,25 +76,26 @@ body {
 	margin: 3px 0;
 }
 
-@media (max-width:640px){
+/*@media (max-width:640px){
 	.header-iniciativa{
 		display:none;
 	}
-}
+}*/
 
 .header-logo img {
 	width: 70%;
 }
 
-@media (max-width:640px){
+/*@media (max-width:640px){
 	.header-logo img{
 		display:none;
 	}
-}
+}*/
 
 .home {
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
 
 @media (max-width:640px){
@@ -99,13 +105,14 @@ body {
 	}
 }
 .img-home{
-	height: 400px;
+	/*height: 400px;*/
+	width: 36%;
 	padding:5px;
 }
 @media (max-width:640px){
 	.img-home{
-		width:100%;
-		padding:0;
+		width:90%;
+		/*padding: 5px; */
 	}
 }
 .div-content-home{
@@ -131,8 +138,8 @@ body {
 
 @media (max-width:640px){
 	.home-titulo{
-		margin:0 0;
-		padding:0 0;
+		margin:0;
+		padding:0;
 	}
 }
 
@@ -164,8 +171,10 @@ body {
 @media (max-width:640px){
 	.div-home-pesquisa{
 		flex-direction: column;
-		/*height:auto;
-		margin-right:0;*/
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 0;
 	}
 }
 
@@ -188,10 +197,8 @@ body {
 
 @media (max-width:640px){
 	.div-pesquisa{
-		
-		/*width:10px;*/
-		/*min-height:10px;*/
-		/*padding:0;*/
+		width:100%;
+		margin: 5px 0; 
 	}
 }
 #sec-pesquisa{
@@ -204,9 +211,22 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 }	
-
+@media (max-width: 640px){
+	#sec-pesquisa{
+		background:#F4D309 ;
+	}
+}
+.img-pesquisa{
+	display: none;
+}
+@media (max-width: 640px){
+	.img-pesquisa{
+		display: block;
+		width: 90%;
+		margin-top: 10%;
+	}
+}
 .titulo-pesquisa{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 500;*/
@@ -219,7 +239,7 @@ body {
 
 @media(max-width:640px){
 	.titulo-pesquisa{
-		width: 50%;
+		width: 90%;
 		margin:0;
 	}
 }
@@ -238,8 +258,7 @@ body {
 
 @media(max-width:640px){
 	.p-pesquisa{
-		width: 95%;
-
+		width: 90%;
 	}
 }
 
@@ -252,7 +271,7 @@ body {
 
 @media(max-width:640px){
 	.pesquisa{
-		width: 95%;
+		width: 90%;
 		height: 70px;
 	}
 }
@@ -283,7 +302,7 @@ body {
 
 @media(max-width:640px){
 	.resultado-pesquisa{
-		width: 95%;
+		width: 90%;
 		height: 70px;
 	}
 }
@@ -312,7 +331,16 @@ body {
 	align-items: flex-end;
 	height: 15vh;
 	margin-top:100px;
+}
+@media(max-width: 640px){
+	.conteiner-linha-do-tempo{
+		height: auto;
+		margin:0;
+		margin-left: 100px;
+		width: 50%;
 
+		/*background-color: blue;*/
+	}
 }
 .linha-do-tempo{
 	display:flex;
@@ -321,28 +349,52 @@ body {
     padding-left: 0;
     margin: 0;
 }
+@media(max-width: 640px){
+	.linha-do-tempo{
+		flex-direction: column;
+		border:none;
+		border-left: 1.5px dashed #EA8C1C;
+		justify-content: flex-start;
+		align-content: space-between;
+	}
+}
 .item-linha-do-tempo{
 	width: 15%;
 	list-style: none;
 	display: flex;
-	justify-content: center;
 	flex-flow: row wrap;
+	justify-content: center;
 	align-items: center;
 	position: relative;
 	top:-35px;
 }
+@media(max-width: 640px){
+	.item-linha-do-tempo{
+		flex-wrap: nowrap;
+		width: 100%;
+		top:0;
+		left: -50%;
+		align-items: baseline; 
+
+		/*background-color: pink;*/
+	}
+}
 .item-linha-do-tempo-ano{
 	width: auto;
 	top:-45px;
+}
+@media (max-width: 640px){
+	.item-linha-do-tempo-ano{
+		/*width: auto;*/
+		top:0px;
+	}	
 }
 .ano-timeline{
 	background-color:#F4D309;
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
 	font-size: 1em;
-	/*color: #FF8400;*/
 	color: #EA8C1C;
-
 }
 .mes-timeline{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
@@ -397,6 +449,8 @@ body {
 	background: #F4D309;
 	height: 100%;
 	width: 50%;
+
+	/*background: red;*/
 }
 #sec-premio{
 	min-height: 100vh;
