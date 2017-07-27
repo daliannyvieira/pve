@@ -14,7 +14,7 @@ body {
 		overflow: hidden;
 	}
 }*/
-.header {
+#header {
 	min-height:100vh;
 	display: flex;
 	flex-direction: column;
@@ -27,7 +27,27 @@ body {
 	
 	}
 }
-
+.nav-menu{
+	z-index: 1;
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+.menu{
+	display: flex;	
+}
+.menu a{
+	text-decoration: none;
+}
+.itens-menu{
+	margin: 18px;
+	list-style: none;
+	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
+	/*font-weight: 300;*/
+	font-size: 1em;
+	color:#007DC5;
+	text-align: left;
+}
 .header-logo {	
 	align-self: flex-end;
 	display: flex;
