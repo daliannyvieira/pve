@@ -6,7 +6,7 @@ body{
 				}
 																@media (max-width: 620px){	
 																	body {
-																		width: 100vh;
+																		width: 100%;
 																		margin: 0;
 																		background-color: #fff;
 																	}
@@ -56,7 +56,7 @@ body{
 																		}
 																	}
 
-.header button{
+.header button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,10 +71,20 @@ body{
 	height: 3em;	
 	width: 18em;
 	text-align: left;
+	/*border: 0;*/
+}
+
+.button:hover{
+	background-color: #fff;
+	border:0;
 }
 																	@media (max-width: 620px){	
 																		.header button {
-																			height: 2.5em;
+																			height: 3.45em;
+																			margin: 15px;
+																			padding: 0;
+																			width: 21.45em;
+																			
 
 																		}
 																	}
@@ -86,7 +96,7 @@ body{
 }
 																	@media (max-width: 620px){
 																		.imprimir {
-																			width: 0.5em;
+																			width: 1em;
 																		}
 																	}
 
@@ -95,10 +105,15 @@ body{
 	margin: 0 0.5em;
 }
 
+																	@media (max-width: 620px){
+																		.baixarPlanilha {
+																			width: 0.90em;
+																		}
+																	}
+
 main{
 	background-color: #fff;
 }
-
 
 table{
 	 width: 95%;
@@ -113,10 +128,11 @@ table{
 										}
 																		@media (max-width: 620px){	
 																					.table{
-																						margin: 0;
+																						margin: 5%;
 																						border-style: none;
 																						display: block;
-																						
+																						width: 36em;
+
 																					}
 																				}
 
@@ -164,6 +180,20 @@ table{
 .table-title-resultadoo{
 	width: 9%;
 }
+
+.comentário{
+	opacity: 0;
+}
+																@media (max-width: 620px){
+																	.comentário {
+																		opacity: 1;
+																		font-family: 'FrutigerNextLT', sans-serif;
+																		font-size: 2em;
+																		color: #555555;
+																		text-align: center;
+																		line-height: 1.4em;
+																		}
+																	}
 
 .table-linha{
 	background-color: #ededed;
@@ -225,8 +255,10 @@ table{
 
  											@media (max-width: 620px){
  												.pontuaçãoFinal-participantes{
+ 													justify-content: center;
+ 													align-items: center;
  													width: 100%;
- 													font-size: 1.25em;
+ 													font-size: 1.75em;
  													height: 100px;
  													margin: 0;
  												}
