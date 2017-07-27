@@ -3,13 +3,14 @@ body{
 	padding: 0;
 	background-color: #f4d309;
 
-}
-												@media (max-width: 620px){	
-													body {
-														margin: 0;
-														background-color: #fff;
-													}
-												}
+				}
+																@media (max-width: 620px){	
+																	body {
+																		width: 100vh;
+																		margin: 0;
+																		background-color: #fff;
+																	}
+																}
 
 .header {
 	display: flex;
@@ -109,7 +110,16 @@ table{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-}
+										}
+																		@media (max-width: 620px){	
+																					.table{
+																						margin: 0;
+																						border-style: none;
+																						display: block;
+																						
+																					}
+																				}
+
 
 .table-title{
 	background-color: #008acb;
@@ -120,18 +130,18 @@ table{
 	font-size: 1em;
 }
 
+									@media (max-width: 620px){	
+											.table-title{
+												display: none;
+											}
+										}
+
 .table-title-tipo{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
   	width: 14%;
 }
-
-								@media (max-width: 620px){	
-											.table-title-tipo {
-												display: none;
-											}
-										}
 
 .table-title-ciclo{
 	margin: 0 auto;
@@ -140,54 +150,32 @@ table{
   	width: 8%;
 }
 
-								@media (max-width: 620px){	
-											.table-title-ciclo {
-												display: none;
-											}
-										}
-
-.table-title-Dois{
+.table-title-indicadores{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
   	width: 54%;
 }
 
-																@media (max-width: 620px){	
-																		.table-title-Dois {
-																			background-color: #008acb;
-																			padding: 50px;
-																			font-size: 1.7em;
-																			width: 100%;
-																		}
-																	}
-
-.table-title-Tres{
+.table-title-pontuação{
 	width: 9%;
 }
 
-								@media (max-width: 620px){	
-											.table-title-Tres {
-												display: none;
-											}
-										}
-
-.table-title-TresResultado{
+.table-title-resultadoo{
 	width: 9%;
 }
-
-																/*@media (max-width: 620px){	
-																		.table-title-TresResultado {
-																			background-color: #008acb;
-																			color: #008acb;																	}
-																	}
-																}*/
 
 .table-linha{
 	background-color: #ededed;
 	height: 50px;
 	color: #005e96;
 }
+
+									@media (max-width: 620px){	
+											.table-linha{
+												display: none;
+											}
+										}
 
 .table-linha-descriçao{
 	margin: 0 auto;
@@ -196,12 +184,6 @@ table{
 	font-size: 0.9em;
 	text-align: left;
 }
-
-									@media (max-width: 620px){	
-											.table-linha-descriçao {
-												display: none;
-											}
-										}
 
 .table-linha-topico{
 	margin: 0 auto;;
@@ -213,75 +195,22 @@ table{
 
 }
 
-.table-linha-Indicadores{
-	margin: 0 auto;
-  	padding: 20px;
-  	font-family: 'FrutigerNextLT', sans-serif, arial;
-	font-size: 1em;
-	text-align: left;
-}
-														@media (max-width: 620px){	
-																.table-linha-Indicadores{
-																	font-size: 1.7em;
-																}
-															}
-
-
-.table-linha-IndicadoresPrincipais{
-	font-family: 'FrutigerNextLT', sans-serif, arial;
-	font-size: 1em;
-	text-align: left;
-	padding: 20px;
-}
-														@media (max-width: 620px){	
-																.table-linha-IndicadoresPrincipais{
-																	font-size: 1.7em;
-															}
-														}
-
 .table-linha-resultado{
 	text-align: center;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 0.9em;
 	font-weight: bold;
 }
-														@media (max-width: 620px){	
-																.table-linha-resultado{
-																	font-size: 1.7em;
-															}
-														}
 
 
- .table-linha-média{
+ .table-linha-pontuação{
  	text-align: center;
  	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 1em;
  }	
- 											@media (max-width: 620px){
- 												.table-linha-média{
- 													display: none;
- 												}
- 											}
 
-.footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*color: #005e96;
-*/	margin: 20px;
-}
 
- 											@media (max-width: 620px){
- 												.footer {
- 													flex-direction: column;
- 													justify-content: center;
- 													align-items: center;
- 													width: 100%;
- 													margin: 22px;
- 												}
- 											}
-
-.footer-participantes {
+.pontuaçãoFinal-participantes {
 	width: 30%;
 	height: 50px;
 	background-color: #008acb;
@@ -295,13 +224,15 @@ table{
 }
 
  											@media (max-width: 620px){
- 												.footer-participantes{
+ 												.pontuaçãoFinal-participantes{
  													width: 100%;
- 													font-size: 1.7em;
+ 													font-size: 1.25em;
+ 													height: 100px;
+ 													margin: 0;
  												}
  											}
 
-.footer-participantes-descrição {
+.pontuaçãoFinal-participantes-descrição {
 	width: 20%;
 	border: 2px solid #fff;
 	border-spacing: 5px;
@@ -310,14 +241,13 @@ table{
 	padding: 20px;
 }
  											@media (max-width: 620px){
- 												.footer-participantes-descrição{
- 													width: 80%;
- 													padding: 20px;
- 													border-spacing: 5px;
+ 												.pontuaçãoFinal-participantes-descrição{
+ 													width: 75%;
+ 													/*border-spacing: 5px;*/
  													text-align: left;
  												}
  											}
-.footer-participantes-resultado {
+.pontuaçãoFinal-participantes-resultado {
 	width: 8%;
 	border: 2px solid #fff;
 	border-spacing: 10px;
@@ -326,15 +256,45 @@ table{
 }
 
  											@media (max-width: 620px){
- 												.footer-participantes-resultado{
- 													width: 11%;
+ 												.pontuaçãoFinal-participantes-resultado{
+ 													width: 20%;
  													text-align: center;
  													order: 2px solid #fff;
- 													font-weight: bolder;
+ 													font-weight: bold;
 
  												}
  											}
 
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	font-family: 'FrutigerNextLT', sans-serif, arial;
+}
+
+ 											@media (max-width: 620px){
+ 												.footer {
+ 													justify-content: center;
+ 													align-items: center;
+ 													width: 100%;
+ 													margin: 32px;
+ 													font-size: 1.25em;
+ 													text-align: center;
+ 												}
+ 											}
+
+
 .footer-texto{
 	color: #005e96;
 }
+
+ 											@media (max-width: 620px){
+ 												.footer-texto {
+ 													display: flex;
+ 													justify-content: center;
+ 													align-items: center;
+ 													width: 50%;
+ 													font-weight: bold;
+ 												}
+ 											}
