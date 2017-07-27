@@ -120,15 +120,28 @@ table{
 	font-size: 1em;
 }
 
-.table-title-Um{
+.table-title-tipo{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
-  	width: 18.67%;
+  	width: 14%;
 }
 
 								@media (max-width: 620px){	
-											.table-title-Um {
+											.table-title-tipo {
+												display: none;
+											}
+										}
+
+.table-title-ciclo{
+	margin: 0 auto;
+  	padding: 20px;
+  	text-align: left;
+  	width: 8%;
+}
+
+								@media (max-width: 620px){	
+											.table-title-ciclo {
 												display: none;
 											}
 										}
@@ -137,7 +150,7 @@ table{
 	margin: 0 auto;
   	padding: 20px;
   	text-align: left;
-  	width: 33%;
+  	width: 54%;
 }
 
 																@media (max-width: 620px){	
@@ -150,7 +163,7 @@ table{
 																	}
 
 .table-title-Tres{
-	width: 11%;
+	width: 9%;
 }
 
 								@media (max-width: 620px){	
@@ -160,7 +173,7 @@ table{
 										}
 
 .table-title-TresResultado{
-	width: 11%;
+	width: 9%;
 }
 
 																/*@media (max-width: 620px){	
@@ -176,17 +189,11 @@ table{
 	color: #005e96;
 }
 
-.table-linha2{
-	background-color: #e2e2e2;
-	height: 50px;
-	color: #005e96;
-}
-
 .table-linha-descriçao{
-	margin: 0 auto;;
+	margin: 0 auto;
   	padding: 20px;
   	font-family: 'FrutigerNextLT', sans-serif, arial;
-	font-size: 1em;
+	font-size: 0.9em;
 	text-align: left;
 }
 
@@ -195,6 +202,16 @@ table{
 												display: none;
 											}
 										}
+
+.table-linha-topico{
+	margin: 0 auto;;
+  	padding: 20px;
+  	font-family: 'FrutigerNextLT', sans-serif, arial;
+	font-size: 0.9em;
+	text-align: left;
+	font-weight: bolder;
+
+}
 
 .table-linha-Indicadores{
 	margin: 0 auto;
@@ -225,7 +242,7 @@ table{
 .table-linha-resultado{
 	text-align: center;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: bold;
 }
 														@media (max-width: 620px){	
@@ -248,10 +265,10 @@ table{
 
 .footer {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	color: #005e96;
-	margin: 27px;
+	justify-content: center;
+	align-items: center;
+	/*color: #005e96;
+*/	margin: 20px;
 }
 
  											@media (max-width: 620px){
@@ -266,11 +283,15 @@ table{
 
 .footer-participantes {
 	width: 30%;
-	height: 52px;
-	background-color: #ededed;
+	height: 50px;
+	background-color: #008acb;
 	border-collapse: collapse;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	margin: 20px;
+	
 }
 
  											@media (max-width: 620px){
@@ -285,7 +306,8 @@ table{
 	border: 2px solid #fff;
 	border-spacing: 5px;
 	border-collapse: collapse;
-	text-align: center;
+	text-align: left;
+	padding: 20px;
 }
  											@media (max-width: 620px){
  												.footer-participantes-descrição{
@@ -312,3 +334,7 @@ table{
 
  												}
  											}
+
+.footer-texto{
+	color: #005e96;
+}
