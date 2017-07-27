@@ -600,23 +600,40 @@ body {
 
 #sec-vainaweb{
 	width:100%;
-	min-height:80vh;
-	max-height: 90vh;
-	background-color:#fff;
+	min-height:90vh;
+	/*max-height: 90vh;*/
+	background-color:#f2f2f2;
 	/*opacity:0.8;*/
-	padding: 10%;
+	padding: 3%;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 	justify-content: center;
-	/*align-items: center;*/
+	align-items: center;
 	align-content: flex-start;
 }
-#sec-vainaweb img {
-	width: 45%;
-	margin-right: 3%;
+.div-fto-dev{
+	width: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background-color: red;*/
+}
+.fto-dev{
+	width: 13%;
+	margin:3%;
+	/*height: auto;*/
+}
+.logo-vnw {
+	width: 20%;
+	margin-right: 5%;
+}
+.div-content-vainaweb{
+	/*display: flex;*/
+	width: 40%;
+
 }
 .titulo-vainaweb{
-	width: 50%;
+	/*width: 50%;*/
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
 	font-size:1.5em;
@@ -624,7 +641,7 @@ body {
 	text-align:left;
 }
 .p-vainaweb{
-	width: 50%;
+	/*width: 50%;*/
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
 	font-size:1em;
