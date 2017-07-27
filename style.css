@@ -71,23 +71,20 @@ body {
 .home {
 	display: flex;
 	justify-content: center;
-	flex-direction:row;
 }
 
 @media (max-width:640px){
 	.home{
-
 		display: flex;
 		flex-direction:column;	
 	}
 }
 .img-home{
-	width:36%;
+	height: 400px;
 	padding:5px;
 }
 @media (max-width:640px){
 	.img-home{
-		/*background:url('Assets/ilustra12.svg') no-repeat 10% 38%;*/
 		width:100%;
 		padding:0;
 	}
@@ -629,12 +626,12 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 .p-rodape{
 	width: 100%;
-	margin-top:2%;
-	margin-bottom: 5%;
+	margin-top: 2em;
+	margin-bottom: 1em;
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
 	font-size: 0.8em;
