@@ -9,12 +9,24 @@ body {
 	/*overflow: hidden;*/
 }
 
+/*@media (max-width: 640px){
+	body{
+		overflow: hidden;
+	}
+}*/
 .header {
 	min-height:100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+@media (max-width: 640px){
+	.header{
+	display: flex;
+	flex-direction:row;
+	
+	}
 }
 
 .header-logo {	
@@ -24,6 +36,13 @@ body {
 	margin-right:2%;	
 	width: 20%;
 }
+
+@media (max-width:640px){
+	.header-logo{
+		display:none;
+	}
+}
+
 .header-iniciativa {
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
@@ -32,16 +51,46 @@ body {
 	text-align: left;
 	margin: 3px 0;
 }
+
+@media (max-width:640px){
+	.header-iniciativa{
+		display:none;
+	}
+}
+
 .header-logo img {
 	width: 70%;
 }
+
+@media (max-width:640px){
+	.header-logo img{
+		display:none;
+	}
+}
+
 .home {
 	display: flex;
 	justify-content: center;
+	flex-direction:row;
+}
+
+@media (max-width:640px){
+	.home{
+
+		display: flex;
+		flex-direction:column;	
+	}
 }
 .img-home{
 	width:36%;
 	padding:5px;
+}
+@media (max-width:640px){
+	.img-home{
+		/*background:url('Assets/ilustra12.svg') no-repeat 10% 38%;*/
+		width:100%;
+		padding:0;
+	}
 }
 .div-content-home{
 	width: 47%;
@@ -49,12 +98,28 @@ body {
 	padding: 40px;
 }
 
+@media (max-width:640px){
+	.div-content-home{
+		width:5px;
+		margin:0px;
+		padding:0px;
+		
+	}
+}
 .home-titulo{
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 	/*font-weight: 900;*/
 	font-size:1.6em;
 	color:#007DC5;
 }
+
+@media (max-width:640px){
+	.home-titulo{
+		margin:0 0;
+		padding:0 0;
+	}
+}
+
 .home-descricao{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
@@ -62,6 +127,16 @@ body {
 	color:#007DC5;
 	line-height: 1.4em;
 }
+
+@media (max-width:640px){
+	.home-descricao{
+		display: flex;
+		flex-direction: row;
+		font-size:1em;
+		line-height:1em;
+	}
+}
+
 .div-home-pesquisa{
 	height: 48px;
 	margin-right:10px;
@@ -69,6 +144,14 @@ body {
 	flex-direction:row;
 	justify-content:space-between;
 }
+
+@media (max-width:640px){
+	.div-home-pesquisa{
+		height:10px;
+		margin-right:0;
+	}
+}
+
 .div-pesquisa{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
@@ -87,7 +170,15 @@ body {
 	align-items: center;
 }
 
-
+@media (max-width:640px){
+	.div-pesquisa{
+		font-size:1em;
+		width:10px;
+		min-height:10px;
+		border-radius:0;
+		padding:0;
+	}
+}
 #sec-pesquisa{
 	min-height:100vh;
 	background: url(Assets/ilustra1.png) no-repeat 8% 28%, url(Assets/ilustra2.png) no-repeat 104% top;
@@ -111,6 +202,13 @@ body {
 	margin: 10px 0;
 }
 
+@media(max-width:640px){
+	.titulo-pesquisa{
+		width: 50%;
+		margin:0;
+	}
+}
+
 .p-pesquisa{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
@@ -122,12 +220,28 @@ body {
 	margin: 5px 0;
 	margin-bottom: 30px;
 }
+
+@media(max-width:640px){
+	.p-pesquisa{
+		width: 95%;
+
+	}
+}
+
 .pesquisa{
 	height:60px;
 	width:38%;
 	display:flex;
 	justify-content:center;
 }
+
+@media(max-width:640px){
+	.pesquisa{
+		width: 95%;
+		height: 70px;
+	}
+}
+
 .input{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
 	/*font-weight: 300;*/
@@ -151,6 +265,14 @@ body {
 	border-radius:5px;
 	margin-top: 7px;
 }
+
+@media(max-width:640px){
+	.resultado-pesquisa{
+		width: 95%;
+		height: 70px;
+	}
+}
+
 .resultado-pesquisa-p{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
@@ -291,6 +413,12 @@ body {
 
 	/*background-color: red;*/
 }
+
+@media(max-width:640px){
+	.div-sec-premios{
+		width: 110em;
+	}
+}
 .div-sec-premios h3{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 900;*/
@@ -379,6 +507,13 @@ body {
 	border-radius:5px;
 	margin: 3% 0;
 }
+
+@media(max-width:640px){
+	.regulamento-do-premio{
+		display: none;
+	}
+}
+
 .p-regulamento-do-premio{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
@@ -388,6 +523,12 @@ body {
 	margin:0;
 	padding:20px;
 	text-decoration:none;
+}
+
+@media(max-width:640px){
+	.p-regulamento-do-premio{
+		display: none;
+	}
 }
 .asset-top{
 	transform: rotate(180deg);
