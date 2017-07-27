@@ -467,6 +467,11 @@ body {
 	line-height: 1.4em;
 	margin: 0px 5%;
 }
+@media(max-width: 640px) {
+	.p-premios{
+		width: 95%;
+	}
+}
 .p-catpremios-bold{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	/*font-weight: 700;*/
