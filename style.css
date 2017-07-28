@@ -464,6 +464,11 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 }
+@media (max-width: 640px){
+	#sec-premio{
+		background:#008acb; 
+	}
+}
 .titulo-premio{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	font-weight: 900;
@@ -475,6 +480,11 @@ body {
 	/*background-color: red;*/
 }
 
+@media (max-width: 640px){
+	.titulo-premio{
+
+	}
+}
 .div-sec-premios{
 	position: relative;
 	width: 36%;
@@ -490,13 +500,19 @@ body {
 }
 .div-sec-premios h3{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
-	/*font-weight: 900;*/
 	font-size: 1.5em;
 	color: #fff;
 	text-align: left;
 	margin: 20px 40px;
-	/*margin-left: 40px;*/
+
 }
+
+@media (max-width: 640px){
+	.div-sec-premios h3{
+	 	/*left:5px;*/
+	}
+}
+
 .destaque-numero{
 
 	font-size: 1.69em;
@@ -511,6 +527,16 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
+}
+
+@media (max-width: 640px){
+	.destaque-numero{
+		position: absolute;
+		top:2px;
+		left: -45px;
+		margin-left: 80%;
+
+	}
 } 
 .p-premios{
 	font-family: 'FrutigerNextLT-Light', sans-serif, arial;
@@ -776,8 +802,8 @@ body {
 }
 .logo-vnw-2{
 	width: 20%;
-	margin-right: 5%;
-	/*display:none;*/
+	right: 40px;
+	display:block;
 }
 
 @media (max-width: 640px){
@@ -808,7 +834,7 @@ body {
 
 @media (max-width: 640px){
 	.titulo-vainaweb{
-
+		
 	}
 }
 
