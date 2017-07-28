@@ -2,11 +2,17 @@ body{
 	margin: 1%;
 	padding: 0;
 	background-color: #f4d309;
-
-				}
+}
 																@media (max-width: 620px){	
 																	body {
-																		width: 100%;
+																		margin: 0;
+																		background-color: #fff;
+																	}
+																}
+
+
+																@media (max-width: 768px){	
+																	body {
 																		margin: 0;
 																		background-color: #fff;
 																	}
@@ -22,25 +28,51 @@ body{
 
 																@media (max-width: 620px){	
 																		.header {
+																			justify-content: center;
 																			flex-wrap: wrap;
-																			justify-content: flex-start;
+																			padding: 0;
+																			width: 100%;
 																		}
 																	}
 
-.header-Cidade{
+																@media (max-width: 768px){	
+																		.header {
+																			justify-content: center;
+																			flex-wrap: wrap;
+																			padding: 0;
+																			width: 100%;
+																		}
+																	}
+
+.header-Cidade {
 	display: flex;
 	align-items: center;	
-	font-family: 'FrutigerNextLT', sans-serif, arial;
-	font-weight: bolder;
-	font-size: 1.75em;
+	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+	font-size: 1.25em;
 	color: #005e96;
 	text-align: left;	
 }
+
 
 .header-Cidade img {
 	width: 20px;
 	margin: 12px;
 }
+
+																	@media (max-width: 620px){	
+																		.header-Cidade img{
+																			width: 35px;
+																			margin-left: 38px;
+																		}
+																	}
+
+																	@media (max-width: 768px){	
+																		.header-Cidade img{
+																			width: 35px;
+																			margin-left: 38px;
+																		}
+																	}
+
 
 
 
@@ -53,6 +85,17 @@ body{
 																		.header-btn {
 																			flex-direction: column;
 																			font-size: 2em;
+																			margin: 32px;
+																			width: 100%;
+																		}
+																	}
+
+																	@media (max-width: 768px){	
+																		.header-btn {
+																			flex-direction: column;
+																			font-size: 2em;
+																			margin: 32px;
+																			width: 100%;
 																		}
 																	}
 
@@ -68,24 +111,27 @@ body{
 	font-size: 1em;
 	margin: 16px;
 	border-radius: 7px;
-	height: 3em;	
+	height: 3.4em;	
 	width: 18em;
 	text-align: left;
-	/*border: 0;*/
+	border: 0;
 }
 
-.button:hover{
+/*.button:hover{
 	background-color: #fff;
 	border:0;
-}
+}*/
 																	@media (max-width: 620px){	
 																		.header button {
-																			height: 3.45em;
-																			margin: 15px;
-																			padding: 0;
-																			width: 21.45em;
-																			
+																			margin: 12px;
+																			width: 100%;
+																		}
+																	}
 
+																	@media (max-width: 768px){	
+																		.header button {
+																			margin: 12px;
+																			width: 100%;
 																		}
 																	}
 
@@ -96,7 +142,21 @@ body{
 }
 																	@media (max-width: 620px){
 																		.imprimir {
-																			width: 1em;
+																			width: 1em;/*
+																			margin-right: 15%;*/
+																		}
+																	}
+
+																	@media (max-width: 768px){
+																		.imprimir {
+																			width: 1em;/*
+																			margin-right: 15%;*/
+																		}
+																	}
+
+																	@media (max-width: 620px){
+																		.p {
+																			margin-right: 14%;
 																		}
 																	}
 
@@ -106,6 +166,12 @@ body{
 }
 
 																	@media (max-width: 620px){
+																		.baixarPlanilha {
+																			width: 0.90em;
+																		}
+																	}
+
+																	@media (max-width: 768px){
 																		.baixarPlanilha {
 																			width: 0.90em;
 																		}
@@ -125,13 +191,21 @@ table{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-										}
+}
 																		@media (max-width: 620px){	
-																					.table{
-																						margin: 5%;
-																						border-style: none;
-																						display: block;
-																						width: 36em;
+																			.table{
+																				margin: 15px;
+																				border-style: none;
+																				width: 36em;
+
+																					}
+																				}
+
+																		@media (max-width: 768px){	
+																			.table{
+																				margin: 15px;
+																				border-style: none;
+																				width: 36em;
 
 																					}
 																				}
@@ -147,6 +221,12 @@ table{
 }
 
 									@media (max-width: 620px){	
+											.table-title{
+												display: none;
+											}
+										}
+
+									@media (max-width: 768px){	
 											.table-title{
 												display: none;
 											}
@@ -188,10 +268,23 @@ table{
 																	.comentário {
 																		opacity: 1;
 																		font-family: 'FrutigerNextLT', sans-serif;
-																		font-size: 2em;
+																		font-size: 1.75em;
 																		color: #555555;
 																		text-align: center;
 																		line-height: 1.4em;
+																		width: 100%;
+																		}
+																	}
+
+																@media (max-width: 768px){
+																	.comentário {
+																		opacity: 1;
+																		font-family: 'FrutigerNextLT', sans-serif;
+																		font-size: 1.75em;
+																		color: #555555;
+																		text-align: center;
+																		line-height: 1.4em;
+																		width: 100%;
 																		}
 																	}
 
@@ -202,6 +295,12 @@ table{
 }
 
 									@media (max-width: 620px){	
+											.table-linha{
+												display: none;
+											}
+										}
+
+									@media (max-width: 768px){	
 											.table-linha{
 												display: none;
 											}
@@ -241,7 +340,10 @@ table{
 
 
 .pontuaçãoFinal-participantes {
-	width: 30%;
+	/*display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+*/	width: 30%;
 	height: 50px;
 	background-color: #008acb;
 	border-collapse: collapse;
@@ -250,19 +352,31 @@ table{
 	font-weight: bold;
 	color: #fff;
 	margin: 20px;
-	
 }
 
- 											@media (max-width: 620px){
- 												.pontuaçãoFinal-participantes{
- 													justify-content: center;
- 													align-items: center;
- 													width: 100%;
- 													font-size: 1.75em;
- 													height: 100px;
- 													margin: 0;
- 												}
- 											}
+						 											@media (max-width: 620px){
+						 												.pontuaçãoFinal-participantes{
+						 													display: table;
+						 													justify-content: center;
+						 													align-items: center;
+						 													width: 100%;
+						 													font-size: 1.75em;
+						 													height: 100px;
+						 													margin: 0;
+						 												}
+						 											}
+
+						 											@media (max-width: 768px){
+						 												.pontuaçãoFinal-participantes{
+						 													display: table;
+						 													justify-content: center;
+						 													align-items: center;
+						 													width: 100%;
+						 													font-size: 1.75em;
+						 													height: 100px;
+						 													margin: 0;
+						 												}
+						 											}
 
 .pontuaçãoFinal-participantes-descrição {
 	width: 20%;
@@ -272,13 +386,21 @@ table{
 	text-align: left;
 	padding: 20px;
 }
- 											@media (max-width: 620px){
- 												.pontuaçãoFinal-participantes-descrição{
- 													width: 75%;
- 													/*border-spacing: 5px;*/
- 													text-align: left;
- 												}
- 											}
+					 											@media (max-width: 620px){
+					 												.pontuaçãoFinal-participantes-descrição{
+					 													/*width: 75%;*/
+					 													/*border-spacing: 5px;*/
+					 													text-align: left;
+					 												}
+					 											}
+
+					 											@media (max-width: 768px){
+					 												.pontuaçãoFinal-participantes-descrição{
+					 													/*width: 75%;*/
+					 													/*border-spacing: 5px;*/
+					 													text-align: left;
+					 												}
+					 											}
 .pontuaçãoFinal-participantes-resultado {
 	width: 8%;
 	border: 2px solid #fff;
@@ -287,15 +409,23 @@ table{
 	font-weight: bold;
 }
 
- 											@media (max-width: 620px){
- 												.pontuaçãoFinal-participantes-resultado{
- 													width: 20%;
- 													text-align: center;
- 													order: 2px solid #fff;
- 													font-weight: bold;
+					 											@media (max-width: 620px){
+					 												.pontuaçãoFinal-participantes-resultado{
+					 													/*width: 20%;*/
+					 													text-align: center;
+					 													order: 2px solid #fff;
+						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+						 												}					 												}
+					 											}
 
- 												}
- 											}
+					 											@media (max-width: 768px){
+					 												.pontuaçãoFinal-participantes-resultado{
+					 													/*width: 20%;*/
+					 													text-align: center;
+					 													order: 2px solid #fff;
+						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+						 												}					 												}
+					 											}
 
 .footer {
 	display: flex;
@@ -305,28 +435,43 @@ table{
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 }
 
- 											@media (max-width: 620px){
- 												.footer {
- 													justify-content: center;
- 													align-items: center;
- 													width: 100%;
- 													margin: 32px;
- 													font-size: 1.25em;
- 													text-align: center;
- 												}
- 											}
+						 											@media (max-width: 620px){
+						 												.footer {
+						 													display: flex;
+						 													justify-content: center;
+						 													align-items: center;
+						 													margin: 32px;
+						 													font-size: 1.25em;
+						 													text-align: center;
+						 												}
+						 											}
+
+						 											@media (max-width: 768px){
+						 												.footer {
+						 													display: flex;
+						 													justify-content: center;
+						 													align-items: center;
+						 													margin: 32px;
+						 													font-size: 1.25em;
+						 													text-align: center;
+						 												}
+						 											}
 
 
 .footer-texto{
 	color: #005e96;
 }
 
- 											@media (max-width: 620px){
- 												.footer-texto {
- 													display: flex;
- 													justify-content: center;
- 													align-items: center;
- 													width: 50%;
- 													font-weight: bold;
- 												}
- 											}
+						 											@media (max-width: 620px){
+						 												.footer-texto {
+						 													width: 50%;
+						 													font-weight: bold;
+						 												}
+						 											}
+
+						 											@media (max-width: 768px){
+						 												.footer-texto {
+						 													width: 50%;
+						 													font-weight: bold;
+						 												}
+						 											}
