@@ -11,12 +11,12 @@ body{
 																}
 
 
-																@media (max-width: 768px){	
+																/*@media (max-width: 768px){	
 																	body {
 																		margin: 0;
 																		background-color: #fff;
 																	}
-																}
+																}*/
 
 .header {
 	display: flex;
@@ -27,22 +27,22 @@ body{
 }
 
 																@media (max-width: 620px){	
-																		.header {
-																			justify-content: center;
+																		.header {/*
+																			justify-content: center;*/
 																			flex-wrap: wrap;
 																			padding: 0;
 																			width: 100%;
 																		}
 																	}
 
-																@media (max-width: 768px){	
+																/*@media (max-width: 768px){	
 																		.header {
 																			justify-content: center;
 																			flex-wrap: wrap;
 																			padding: 0;
 																			width: 100%;
 																		}
-																	}
+																	}*/
 
 .header-Cidade {
 	display: flex;
@@ -53,7 +53,11 @@ body{
 	text-align: left;	
 }
 
-
+																	/*@media (max-width: 620px){	
+																		.header-Cidade {
+																			justify-content: flex-start;
+																		}
+																	}*/
 .header-Cidade img {
 	width: 20px;
 	margin: 12px;
@@ -62,21 +66,21 @@ body{
 																	@media (max-width: 620px){	
 																		.header-Cidade img{
 																			width: 35px;
-																			margin-left: 38px;
+																			/*margin-left: 38px;*/
 																		}
 																	}
 
-																	@media (max-width: 768px){	
+																	/*@media (max-width: 768px){	
 																		.header-Cidade img{
 																			width: 35px;
 																			margin-left: 38px;
 																		}
-																	}
+																	}*/
 
 
 
 
-.header-btn{
+.header-btn {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -84,20 +88,17 @@ body{
 																@media (max-width: 620px){	
 																		.header-btn {
 																			flex-direction: column;
-																			font-size: 2em;
-																			margin: 32px;
-																			width: 100%;
-																		}
+																			font-size: 2em;																		}
 																	}
 
-																	@media (max-width: 768px){	
+																	/*@media (max-width: 768px){	
 																		.header-btn {
 																			flex-direction: column;
 																			font-size: 2em;
 																			margin: 32px;
 																			width: 100%;
 																		}
-																	}
+																	}*/
 
 .header button {
 	display: flex;
@@ -124,16 +125,15 @@ body{
 																	@media (max-width: 620px){	
 																		.header button {
 																			margin: 12px;
-																			width: 100%;
 																		}
 																	}
 
-																	@media (max-width: 768px){	
+																	/*@media (max-width: 768px){	
 																		.header button {
 																			margin: 12px;
 																			width: 100%;
 																		}
-																	}
+																	}*/
 
 
 .imprimir{
@@ -142,17 +142,17 @@ body{
 }
 																	@media (max-width: 620px){
 																		.imprimir {
-																			width: 1em;/*
-																			margin-right: 15%;*/
+																			width: 1em;
+																			/*margin-right: 15%;*/
 																		}
 																	}
 
-																	@media (max-width: 768px){
+/*																	@media (max-width: 768px){
 																		.imprimir {
 																			width: 1em;/*
 																			margin-right: 15%;*/
 																		}
-																	}
+																	}*/
 
 																	@media (max-width: 620px){
 																		.p {
@@ -166,12 +166,6 @@ body{
 }
 
 																	@media (max-width: 620px){
-																		.baixarPlanilha {
-																			width: 0.90em;
-																		}
-																	}
-
-																	@media (max-width: 768px){
 																		.baixarPlanilha {
 																			width: 0.90em;
 																		}
@@ -197,18 +191,17 @@ table{
 																				margin: 15px;
 																				border-style: none;
 																				width: 36em;
-
-																					}
 																				}
+																			}
 
-																		@media (max-width: 768px){	
+																		/*@media (max-width: 768px){	
 																			.table{
 																				margin: 15px;
 																				border-style: none;
 																				width: 36em;
 
 																					}
-																				}
+																				}*/
 
 
 .table-title{
@@ -221,12 +214,6 @@ table{
 }
 
 									@media (max-width: 620px){	
-											.table-title{
-												display: none;
-											}
-										}
-
-									@media (max-width: 768px){	
 											.table-title{
 												display: none;
 											}
@@ -276,7 +263,7 @@ table{
 																		}
 																	}
 
-																@media (max-width: 768px){
+																/*@media (max-width: 768px){
 																	.comentário {
 																		opacity: 1;
 																		font-family: 'FrutigerNextLT', sans-serif;
@@ -286,7 +273,7 @@ table{
 																		line-height: 1.4em;
 																		width: 100%;
 																		}
-																	}
+																	}*/
 
 .table-linha{
 	background-color: #ededed;
@@ -295,12 +282,6 @@ table{
 }
 
 									@media (max-width: 620px){	
-											.table-linha{
-												display: none;
-											}
-										}
-
-									@media (max-width: 768px){	
 											.table-linha{
 												display: none;
 											}
@@ -356,9 +337,8 @@ table{
 
 						 											@media (max-width: 620px){
 						 												.pontuaçãoFinal-participantes{
-						 													display: table;
-						 													justify-content: center;
-						 													align-items: center;
+						 													/*justify-content: center;
+						 													align-items: center;*/
 						 													width: 100%;
 						 													font-size: 1.75em;
 						 													height: 100px;
@@ -366,9 +346,8 @@ table{
 						 												}
 						 											}
 
-						 											@media (max-width: 768px){
+						 											/*@media (max-width: 768px){
 						 												.pontuaçãoFinal-participantes{
-						 													display: table;
 						 													justify-content: center;
 						 													align-items: center;
 						 													width: 100%;
@@ -376,7 +355,7 @@ table{
 						 													height: 100px;
 						 													margin: 0;
 						 												}
-						 											}
+						 											}*/
 
 .pontuaçãoFinal-participantes-descrição {
 	width: 20%;
@@ -388,19 +367,18 @@ table{
 }
 					 											@media (max-width: 620px){
 					 												.pontuaçãoFinal-participantes-descrição{
-					 													/*width: 75%;*/
-					 													/*border-spacing: 5px;*/
+					 													width: 75%;					 													
 					 													text-align: left;
 					 												}
 					 											}
 
-					 											@media (max-width: 768px){
+					 											/*@media (max-width: 768px){
 					 												.pontuaçãoFinal-participantes-descrição{
-					 													/*width: 75%;*/
-					 													/*border-spacing: 5px;*/
+					 													width: 75%;
+					 													border-spacing: 5px;
 					 													text-align: left;
 					 												}
-					 											}
+					 											}*/
 .pontuaçãoFinal-participantes-resultado {
 	width: 8%;
 	border: 2px solid #fff;
@@ -411,42 +389,39 @@ table{
 
 					 											@media (max-width: 620px){
 					 												.pontuaçãoFinal-participantes-resultado{
-					 													/*width: 20%;*/
+					 													width: 20%;
 					 													text-align: center;
 					 													order: 2px solid #fff;
 						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 						 												}					 												}
 					 											}
 
-					 											@media (max-width: 768px){
+					 											/*@media (max-width: 768px){
 					 												.pontuaçãoFinal-participantes-resultado{
-					 													/*width: 20%;*/
+					 													width: 20%;
 					 													text-align: center;
 					 													order: 2px solid #fff;
 						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 						 												}					 												}
-					 											}
+					 											}*/
 
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 20px;
+	margin: 40px;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 }
 
 						 											@media (max-width: 620px){
 						 												.footer {
-						 													display: flex;
 						 													justify-content: center;
 						 													align-items: center;
+						 													width: 100%;
 						 													margin: 32px;
 						 													font-size: 1.25em;
 						 													text-align: center;
 						 												}
 						 											}
 
-						 											@media (max-width: 768px){
+						 											/*@media (max-width: 768px){
 						 												.footer {
 						 													display: flex;
 						 													justify-content: center;
@@ -455,23 +430,29 @@ table{
 						 													font-size: 1.25em;
 						 													text-align: center;
 						 												}
-						 											}
+						 											}*/
 
 
 .footer-texto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 36px;
 	color: #005e96;
+
 }
 
 						 											@media (max-width: 620px){
 						 												.footer-texto {
-						 													width: 50%;
-						 													font-weight: bold;
+						 													/*font-weight: bold;
+						 													justify-content: center;
+						 													align-items: center;*/
 						 												}
 						 											}
 
-						 											@media (max-width: 768px){
+						 											/*@media (max-width: 768px){
 						 												.footer-texto {
 						 													width: 50%;
 						 													font-weight: bold;
 						 												}
-						 											}
+						 											}*/
