@@ -1,23 +1,24 @@
-html{
+/*html{
 	width: 100%;
 	overflow: auto;
-}
+}*/
 
 body{
 	margin: 1%;
 	padding: 0;
 	background-color: #f4d309;
-	width: 100%;
+	/*width: 100%;*/
 }
-																@media (max-width: 620px){	
-																	body {
-																		overflow: hidden;
-																		margin: 0;
-																		background-color: #fff;
-																	}
-																}
+									@media (max-width: 620px){	
+										body {
+											/*overflow: hidden;*/
+											margin: 0;
+											background-color: #fff;
+										}
+									}
 
 .header {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,25 +26,17 @@ body{
 	padding: 1.5%;
 }
 
-																@media (max-width: 620px){	
-																		.header {/*
-																			justify-content: center;*/
-																			flex-wrap: wrap;
-																			padding: 0;
-																			width: 100%;
-																		}
-																	}
-
-																/*@media (max-width: 768px){	
-																		.header {
-																			justify-content: center;
-																			flex-wrap: wrap;
-																			padding: 0;
-																			width: 100%;
-																		}
-																	}*/
+									@media (max-width: 620px){	
+										.header {
+											/*justify-content: center;*/
+											flex-wrap: wrap;
+											padding: 0;
+											/*width: 100%;*/
+										}
+									}
 
 .header-Cidade {
+	width: 100%;
 	display: flex;
 	align-items: center;	
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
@@ -52,52 +45,33 @@ body{
 	text-align: left;	
 }
 
-																	/*@media (max-width: 620px){	
-																		.header-Cidade {
-																			justify-content: flex-start;
-																		}
-																	}*/
 .header-Cidade img {
 	width: 20px;
 	margin: 12px;
 }
 
-																	@media (max-width: 620px){	
-																		.header-Cidade img{
-																			width: 35px;
-																			/*margin-left: 38px;*/
-																		}
-																	}
-
-																	/*@media (max-width: 768px){	
-																		.header-Cidade img{
-																			width: 35px;
-																			margin-left: 38px;
-																		}
-																	}*/
-
-
-
+							@media (max-width: 620px){	
+								.header-Cidade img{
+									width: 35px;
+									/*margin-left: 38px;*/
+								}
+							}
 
 .header-btn {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	width: 95%;
 }
-																@media (max-width: 620px){	
-																		.header-btn {
-																			flex-direction: column;
-																			font-size: 2em;																		}
-																	}
+							@media (max-width: 620px){	
+									.header-btn {
+										flex-direction: column;
+										justify-content: center;
+										margin:0 auto;
+										font-size: 2em;
+								}
+							}
 
-																	/*@media (max-width: 768px){	
-																		.header-btn {
-																			flex-direction: column;
-																			font-size: 2em;
-																			margin: 32px;
-																			width: 100%;
-																		}
-																	}*/
 
 .header button {
 	display: flex;
@@ -117,58 +91,39 @@ body{
 	border: 0;
 }
 
-/*.button:hover{
-	background-color: #fff;
-	border:0;
-}*/
-																	@media (max-width: 620px){	
-																		.header button {
-																			margin: 12px;
-																		}
-																	}
-
-																	/*@media (max-width: 768px){	
-																		.header button {
-																			margin: 12px;
-																			width: 100%;
-																		}
-																	}*/
-
+								@media (max-width: 620px){	
+									.header button {
+										margin: 12px;
+										width: 100%;
+									}
+								}
 
 .imprimir{
 	width: 20px;
 	margin: 0 0.5em;
 }
-																	@media (max-width: 620px){
-																		.imprimir {
-																			width: 1em;
-																			/*margin-right: 15%;*/
-																		}
-																	}
-
-/*																	@media (max-width: 768px){
-																		.imprimir {
-																			width: 1em;/*
-																			margin-right: 15%;*/
-																		}
-																	}*/
-
-																	@media (max-width: 620px){
-																		.p {
-																			margin-right: 14%;
-																		}
-																	}
+								@media (max-width: 620px){
+									.imprimir {
+										width: 1em;
+										/*margin-right: 15%;*/
+									}
+								}
+								@media (max-width: 620px){
+									.p {
+										margin-right: 14%;
+									}
+								}
 
 .baixarPlanilha{
 	width: 18px;
 	margin: 0 0.5em;
 }
 
-																	@media (max-width: 620px){
-																		.baixarPlanilha {
-																			width: 0.90em;
-																		}
-																	}
+								@media (max-width: 620px){
+									.baixarPlanilha {
+										width: 0.90em;
+									}
+								}
 
 main{
 	background-color: #fff;
@@ -185,22 +140,13 @@ table{
 	align-items: center;
 	flex-wrap: wrap;
 }
-																		@media (max-width: 620px){	
-																			.table{
-																				margin: 15px;
-																				border-style: none;
-																				width: 36em;
-																				}
-																			}
-
-																		/*@media (max-width: 768px){	
-																			.table{
-																				margin: 15px;
-																				border-style: none;
-																				width: 36em;
-
-																					}
-																				}*/
+								@media (max-width: 620px){	
+									.table{
+										margin: 5%;
+										border-style: none;
+										width: 90%;
+										}
+									}
 
 
 .table-title{
@@ -250,29 +196,19 @@ table{
 .comentário{
 	opacity: 0;
 }
-																@media (max-width: 620px){
-																	.comentário {
-																		opacity: 1;
-																		font-family: 'FrutigerNextLT', sans-serif;
-																		font-size: 1.75em;
-																		color: #555555;
-																		text-align: center;
-																		line-height: 1.4em;
-																		width: 100%;
-																		}
-																	}
+					@media (max-width: 620px){
+						.comentário {
+							opacity: 1;
+							font-family: 'FrutigerNextLT', sans-serif;
+							font-size: 1.75em;
+							color: #555555;
+							text-align: center;
+							line-height: 1.4em;
+							width: 100%;
+							}
+					}
 
-																/*@media (max-width: 768px){
-																	.comentário {
-																		opacity: 1;
-																		font-family: 'FrutigerNextLT', sans-serif;
-																		font-size: 1.75em;
-																		color: #555555;
-																		text-align: center;
-																		line-height: 1.4em;
-																		width: 100%;
-																		}
-																	}*/
+													
 
 .table-linha{
 	background-color: #ededed;
@@ -295,7 +231,7 @@ table{
 }
 
 .table-linha-topico{
-	margin: 0 auto;;
+	margin: 0 auto;
   	padding: 20px;
   	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 0.9em;
@@ -322,8 +258,8 @@ table{
 .pontuaçãoFinal-participantes {
 	/*display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
-*/	width: 30%;
+	align-items: flex-end;*/
+	width: 30%;
 	height: 50px;
 	background-color: #008acb;
 	border-collapse: collapse;
@@ -334,27 +270,17 @@ table{
 	margin: 20px;
 }
 
-						 											@media (max-width: 620px){
-						 												.pontuaçãoFinal-participantes{
-						 													/*justify-content: center;
-						 													align-items: center;*/
-						 													width: 100%;
-						 													font-size: 1.75em;
-						 													height: 100px;
-						 													margin: 0;
-						 												}
-						 											}
+						@media (max-width: 620px){
+							.pontuaçãoFinal-participantes{
+								/*justify-content: center;
+								align-items: center;*/
+								width: 100%;
+								font-size: 1.75em;
+								height: 100px;
+								margin: 0;
+							}
+						}
 
-						 											/*@media (max-width: 768px){
-						 												.pontuaçãoFinal-participantes{
-						 													justify-content: center;
-						 													align-items: center;
-						 													width: 100%;
-						 													font-size: 1.75em;
-						 													height: 100px;
-						 													margin: 0;
-						 												}
-						 											}*/
 
 .pontuaçãoFinal-participantes-descrição {
 	width: 20%;
@@ -364,20 +290,13 @@ table{
 	text-align: left;
 	padding: 20px;
 }
-					 											@media (max-width: 620px){
-					 												.pontuaçãoFinal-participantes-descrição{
-					 													width: 75%;					 													
-					 													text-align: left;
-					 												}
-					 											}
+							@media (max-width: 620px){
+								.pontuaçãoFinal-participantes-descrição{
+									width: 75%;					 													
+									text-align: left;
+								}
+							}
 
-					 											/*@media (max-width: 768px){
-					 												.pontuaçãoFinal-participantes-descrição{
-					 													width: 75%;
-					 													border-spacing: 5px;
-					 													text-align: left;
-					 												}
-					 											}*/
 .pontuaçãoFinal-participantes-resultado {
 	width: 8%;
 	border: 2px solid #fff;
@@ -386,59 +305,39 @@ table{
 	font-weight: bold;
 }
 
-					 											@media (max-width: 620px){
-					 												.pontuaçãoFinal-participantes-resultado{
-					 													width: 20%;
-					 													text-align: center;
-					 													order: 2px solid #fff;
-						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
-						 												}					 												}
-					 											}
-
-					 											/*@media (max-width: 768px){
-					 												.pontuaçãoFinal-participantes-resultado{
-					 													width: 20%;
-					 													text-align: center;
-					 													order: 2px solid #fff;
-						 												font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
-						 												}					 												}
-					 											}*/
+					@media (max-width: 620px){
+						.pontuaçãoFinal-participantes-resultado{
+							width: 20%;
+							text-align: center;
+							order: 2px solid #fff;
+							font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
+						}
+					}
 
 .footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	margin: 40px;
+	margin: 40px 0;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 }
 
-						 											@media (max-width: 620px){
-						 												.footer {
-						 													/*display: flex;
+							@media (max-width: 620px){
+								.footer {
+									margin: 32px 0;
+								}
+							}
 
-						 													justify-content: center;
-						 													align-items: center;*/
-						 													margin: 32px;
-						 												}
-						 											}
 .footer-texto{
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
-	/*padding: 36px;*/
 	color: #005e96;
-	margin: 0 auto;
 	text-align: center;
 	font-size: 1.25em;
-
 }
 
-						 											@media (max-width: 620px){
-						 												.footer-texto {
-						 													/*justify-content: center;
-						 													align-items: center;*/
-						 													/*width: 100%;*//*
-						 													font-size: 1.25em;*/
-						 												}
-						 											}
+							@media (max-width: 620px){
+								.footer-texto {
+									width: 100%;
+									margin:0;
+								}
+							}
