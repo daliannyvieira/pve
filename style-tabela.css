@@ -18,20 +18,18 @@ body{
 									}
 
 .header {
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;
-	padding: 1.5%;
+	padding: 9px;
 }
 
 									@media (max-width: 620px){	
 										.header {
-											/*justify-content: center;*/
 											flex-wrap: wrap;
 											padding: 0;
-											/*width: 100%;*/
 										}
 									}
 
@@ -42,7 +40,8 @@ body{
 	font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
 	font-size: 1.25em;
 	color: #005e96;
-	text-align: left;	
+	text-align: left;
+	letter-spacing: 0.1em;	
 }
 
 .header-Cidade img {
@@ -189,26 +188,9 @@ table{
 	width: 9%;
 }
 
-.table-title-resultadoo{
+.table-title-resultado{
 	width: 9%;
-}
-
-.comentário{
-	opacity: 0;
-}
-					@media (max-width: 620px){
-						.comentário {
-							opacity: 1;
-							font-family: 'FrutigerNextLT', sans-serif;
-							font-size: 1.75em;
-							color: #555555;
-							text-align: center;
-							line-height: 1.4em;
-							width: 100%;
-							}
-					}
-
-													
+}												
 
 .table-linha{
 	background-color: #ededed;
@@ -228,6 +210,16 @@ table{
   	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 0.9em;
 	text-align: left;
+	width: 54%;
+}
+
+.table-linha-ciclo{
+	margin: 0 auto;
+  	padding: 20px;
+  	font-family: 'FrutigerNextLT', sans-serif, arial;
+	font-size: 0.9em;
+	text-align: left;
+	width: 8%;
 }
 
 .table-linha-topico{
@@ -237,6 +229,7 @@ table{
 	font-size: 0.9em;
 	text-align: left;
 	font-weight: bolder;
+	width: 14%;
 
 }
 
@@ -245,6 +238,7 @@ table{
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 0.9em;
 	font-weight: bold;
+	width: 9%;
 }
 
 
@@ -252,15 +246,51 @@ table{
  	text-align: center;
  	font-family: 'FrutigerNextLT', sans-serif, arial;
 	font-size: 1em;
- }	
+	width: 9%;
+ }
 
+ .table-gestaoEscolar{
+ 	 display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 12px 0;
+ }
+
+
+
+.comentário{
+	display: none;
+}
+					@media (max-width: 620px){
+						.comentário {
+							display: block;
+							font-family: 'FrutigerNextLT', sans-serif;
+							font-size: 1.75em;
+							color: #555555;
+							text-align: center;
+							line-height: 1.4em;
+							width: 100%;
+							}
+					}	
+
+.pontuaçãoFinal{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+						@media (max-width: 620px){
+							.pontuaçãoFinal{
+								justify-content: center;
+								align-items: center;
+								flex-direction: column;
+								}
+							}
 
 .pontuaçãoFinal-participantes {
-	/*display: flex;
-	justify-content: space-between;
-	align-items: flex-end;*/
 	width: 30%;
-	height: 50px;
+	height: 30px;
 	background-color: #008acb;
 	border-collapse: collapse;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
@@ -272,8 +302,6 @@ table{
 
 						@media (max-width: 620px){
 							.pontuaçãoFinal-participantes{
-								/*justify-content: center;
-								align-items: center;*/
 								width: 100%;
 								font-size: 1.75em;
 								height: 100px;
@@ -284,6 +312,7 @@ table{
 
 .pontuaçãoFinal-participantes-descrição {
 	width: 20%;
+	height: 30px;
 	border: 2px solid #fff;
 	border-spacing: 5px;
 	border-collapse: collapse;
