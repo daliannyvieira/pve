@@ -1,22 +1,21 @@
+html{
+	width: 100%;
+	overflow: auto;
+}
+
 body{
 	margin: 1%;
 	padding: 0;
 	background-color: #f4d309;
+	width: 100%;
 }
 																@media (max-width: 620px){	
 																	body {
+																		overflow: hidden;
 																		margin: 0;
 																		background-color: #fff;
 																	}
 																}
-
-
-																/*@media (max-width: 768px){	
-																	body {
-																		margin: 0;
-																		background-color: #fff;
-																	}
-																}*/
 
 .header {
 	display: flex;
@@ -406,53 +405,40 @@ table{
 					 											}*/
 
 .footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 	margin: 40px;
 	font-family: 'FrutigerNextLT', sans-serif, arial;
 }
 
 						 											@media (max-width: 620px){
 						 												.footer {
+						 													/*display: flex;
+
 						 													justify-content: center;
-						 													align-items: center;
-						 													width: 100%;
+						 													align-items: center;*/
 						 													margin: 32px;
-						 													font-size: 1.25em;
-						 													text-align: center;
 						 												}
 						 											}
-
-						 											/*@media (max-width: 768px){
-						 												.footer {
-						 													display: flex;
-						 													justify-content: center;
-						 													align-items: center;
-						 													margin: 32px;
-						 													font-size: 1.25em;
-						 													text-align: center;
-						 												}
-						 											}*/
-
-
 .footer-texto{
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
-	padding: 36px;
+	align-items: center;*/
+	/*padding: 36px;*/
 	color: #005e96;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.25em;
 
 }
 
 						 											@media (max-width: 620px){
 						 												.footer-texto {
-						 													/*font-weight: bold;
-						 													justify-content: center;
+						 													/*justify-content: center;
 						 													align-items: center;*/
+						 													/*width: 100%;*//*
+						 													font-size: 1.25em;*/
 						 												}
 						 											}
-
-						 											/*@media (max-width: 768px){
-						 												.footer-texto {
-						 													width: 50%;
-						 													font-weight: bold;
-						 												}
-						 											}*/
