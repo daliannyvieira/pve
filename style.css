@@ -804,6 +804,7 @@ body {
 .fto-dev{
 	width:13%;
 	margin:3%;
+	left: 7%;
 	/*height: auto;*/
 }
 
@@ -811,6 +812,7 @@ body {
 	.fto-dev{
 		width:18%;
 		margin-left:5%;
+		left: 20px;
 	}
 }
 
@@ -893,6 +895,7 @@ body {
 	#rodape{
 		width: 78vh;
 		flex-wrap: wrap;
+		right: 40%;
 	}
 }	
 
