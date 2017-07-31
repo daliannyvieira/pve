@@ -1,17 +1,13 @@
-/*html{
-	width: 100%;
-	overflow: auto;
-}*/
-
 body{
 	margin: 1%;
 	padding: 0;
 	background-color: #f4d309;
-	/*width: 100%;*/
+}
+*{
+	box-sizing: border-box;
 }
 									@media (max-width: 768px){	
 										body {
-											/*overflow: hidden;*/
 											margin: 0;
 											background-color: #fff;
 										}
@@ -44,8 +40,7 @@ body{
 
 							@media (max-width: 768px){	
 								.header-Cidade {
-									font-size: 1.25em;
-									    margin: 22px;
+									font-size: 0.75em;
 								}
 							}
 
@@ -56,8 +51,8 @@ body{
 
 							@media (max-width: 768px){	
 								.header-Cidade img{
-									width: 35px;
-									/*margin-left: 38px;*/
+									width: 18px;
+									margin: 5px;
 								}
 							}
 
@@ -71,11 +66,10 @@ body{
 									.header-btn {
 										flex-direction: column;
 										justify-content: center;
-										font-size: 2em;
+										font-size: 1.25em;
 										width: 100%;
 								}
 							}
-
 
 .header button {
 	display: flex;
@@ -95,9 +89,9 @@ body{
 }
 
 								@media (max-width: 768px){	
-									.header button {/*
-										margin: 12px;*/
-										width: 100%;
+									.header button {
+										width: 95%;
+   										 margin: 6px;
 									}
 								}
 
@@ -108,7 +102,6 @@ body{
 								@media (max-width: 768px){
 									.imprimir {
 										width: 1em;
-										/*margin-right: 15%;*/
 									}
 								}
 								@media (max-width: 768px){
@@ -228,7 +221,6 @@ table{
 	text-align: left;
 	font-weight: bolder;
 	width: 14%;
-
 }
 
 .table-linha-resultado{
@@ -238,7 +230,6 @@ table{
 	font-weight: bold;
 	width: 9%;
 }
-
 
  .table-linha-pontuação{
  	text-align: center;
@@ -266,12 +257,12 @@ table{
 						.comentário {
 							display: block;
 							font-family: 'FrutigerNextLT', sans-serif;
-							font-size: 1.75em;
+							font-size: 1.25em;
 							color: #555555;
 							text-align: center;
 							line-height: 1.4em;
 							width: 100%;
-							margin-bottom: 52px;
+							margin-bottom: 30px;
 							}
 					}	
 
@@ -281,6 +272,7 @@ table{
 	align-items: flex-end;	
 	font-size: 1.25em;	
 	color: #fff;
+
 }
 
 						@media (max-width: 768px){
@@ -299,13 +291,11 @@ table{
 
 						@media (max-width: 768px){
 							.pontuaçãoFinal-participantes{
-								width: 100%;
-								font-size: 1.25em;
-								height: 100px;
-								margin: 0;
+								width:95%;
+								font-size: 1em;
+								margin: 0 auto;
 							}
 						}
-
 
 .pontuaçãoFinal-participantes-descrição {
 	width: 20%;
@@ -324,9 +314,6 @@ table{
 								}
 							}
 
-
-
-
 .pontuaçãoFinal-participantes-resultado {
 	width: 8%;
 	border: 2px solid #fff;
@@ -341,7 +328,7 @@ table{
 							text-align: center;
 							order: 2px solid #fff;
 							font-family: 'FrutigerNextLT-Bold', sans-serif, arial;
-							font-size: 1.25em;
+							font-size: 1em;
 						}
 					}
 
@@ -368,5 +355,7 @@ table{
 							@media (max-width: 768px){
 								.footer-texto {
 									margin:0;
+									width: 65%;
+									font-size:0.9em;
 								}
 							}
