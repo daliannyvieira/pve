@@ -1,0 +1,94 @@
+/*body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #005e96;
+}
+
+.header-descrição{
+	width: 90%;
+}
+
+.header-imagem{
+	width: 55%;
+}
+
+.header-title{	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: 4em;
+	margin: 0;
+}
+
+.header-text{
+	width: 80%;
+	font-size: 2em;
+	letter-spacing: 0.9px;
+	line-height: 1.25em;
+}
+
+main {
+	color: #005e96;
+	background-color: #f4d309;
+	width: 100%;
+	height:100vh;
+}
+
+section {
+
+	height: 100%;
+}
+
+.login-código{
+	font-size: 1.5em;
+}
+
+.login-senha{
+	font-size: 3em;
+}
+
+.table{
+}
+
+.table-title{
+	font-size: 3em;
+}
+
+.table-descrição{
+	line-height: 4.5em;
+	padding: 12%;
+}
+
+.table-descrição-etapa{
+	font-size: bolder;
+	font-family: 'DK Dirrrty';
+	font-size: 2em;
+}
+.table-descrição-sequencia{
+	font-size: 1.75em;
+
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	color: #adadad;
+}
+
+.footer-paragrafo{
+	font-size: 1em;
+}*/
