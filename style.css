@@ -518,7 +518,9 @@ body {
 	position: relative;
 	width: 36%;
 	margin: 10px;
-
+	display: flex;
+	/*flex-direction: column;*/
+	flex-flow: row wrap;
 	/*background-color: red;*/
 }
 
@@ -529,9 +531,7 @@ body {
 }
 
 @media(max-width:568px){
-	.div-sec-premios{
 
-	}
 }
 .div-sec-premios h3{
 	font-family:'FrutigerNextLT-Bold', sans-serif, arial;
@@ -635,6 +635,8 @@ body {
 	padding: 10px 40px;
 	margin: 0px;
 	margin-top: 3%;
+	align-self:flex-end;
+
 
 }
 @media (max-width: 640){
@@ -712,14 +714,16 @@ body {
 }
 .asset-top{
 	transform: rotate(180deg);
+	width: 100%;
 }
 
-
+.asset-bottom{
+	width: 100%;
+}
 #sec-pve{
 	min-height: 100vh;
 	padding-top: 5%;
 	background-color:#ffa07a;
-	/*opacity:0.9;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
