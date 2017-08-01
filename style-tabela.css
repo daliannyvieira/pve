@@ -103,12 +103,34 @@ body{
 									.imprimir {
 										width: 1em;
 									}
-								}
+								}							
+							
 								@media (max-width: 768px){
 									.p {
-										margin-right: 14%;
+										margin-right: 7%;
 									}
 								}
+
+								@media (max-width: 673px){
+									.p {
+										margin-right: 8%;
+									}
+								}
+
+								@media (max-width: 500px){
+									.p {
+										margin-right: 11%;
+									}
+								}
+
+								@media (max-width: 400px){
+									.p {
+										margin-right: 15%;
+									}
+								}
+
+
+								
 
 .baixarPlanilha{
 	width: 18px;
