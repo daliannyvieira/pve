@@ -983,7 +983,7 @@ body {
 
 @media (max-width: 720px){
 	.div-rodape{
-		width: 80%;
+		width:80%;
 		margin-left:25%;
 	}
 }
@@ -1012,8 +1012,9 @@ body {
 
 @media (max-width: 720px){
 	.div-rodape img{
-		max-width: 32%;
-		/*padding: 2px;	*/
+		max-width: 31%;
+		margin:0px;
+		padding:0;
 	}
 }
 
